@@ -1,0 +1,17 @@
+
+public class MethgodchainStudent2 {
+	
+	MethgodchainStudent2()
+	{
+		String name="nagesh";
+		System.out.println(name);
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MethgodchainStudent2 m1=new MethgodchainStudent2();
+		m1.MethgodchainStudent2();
+	}
+
+}

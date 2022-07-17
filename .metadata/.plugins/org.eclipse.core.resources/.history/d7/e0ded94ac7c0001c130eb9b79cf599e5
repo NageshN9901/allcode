@@ -1,0 +1,45 @@
+
+public class UpcastingCar {
+String name,color;
+
+
+
+UpcastingCar(String n,String t)
+{
+	this.name=n;
+	
+	this.color=t;
+}
+
+void drive()
+{
+	
+	System.out.println("Drive car");
+}
+
+
+
+
+}
+
+
+
+
+class bike{
+	String name,color;
+	bike(String n,String t)
+	{
+		this.name=n;
+		
+		this.color=t;
+	}
+
+	void ride()
+	{
+		
+		System.out.println("Drive bike");
+	}
+
+
+	
+}

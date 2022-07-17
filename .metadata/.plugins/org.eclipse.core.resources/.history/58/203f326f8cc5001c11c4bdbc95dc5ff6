@@ -1,0 +1,11 @@
+
+public class Father1 {
+static int price;
+
+public static void main(String[] args) {
+price=78667;
+	System.out.println(price);
+}
+
+
+}

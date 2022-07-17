@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Countnumberofwords {
+public static void main(String[] args) {
+	
+	Scanner sc=new  Scanner(System.in);
+	System.out.println("enetr the string in sentence");
+	
+String wa=sc.nextLine();// what ever enterd in the scanner it willls tore in this wa
+
+ int count =countnumberofword(wa);
+	
+	
+}
+
+public static int countnumberofword(String wa) {
+	// TODO Auto-generated method stub
+	return 0;
+}
+	
+	
+	
+}

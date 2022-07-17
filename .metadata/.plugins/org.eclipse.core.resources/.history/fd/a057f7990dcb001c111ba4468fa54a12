@@ -1,0 +1,14 @@
+
+public class Demo {
+	public static void main(String[] args) {
+		
+	
+	System.out.println("start");
+	System.out.println("statment-1");
+	System.out.println("statment-2");
+	
+	System.out.println(100/0); 
+	System.out.println("statment-3");
+System.out.println("End");
+}
+}

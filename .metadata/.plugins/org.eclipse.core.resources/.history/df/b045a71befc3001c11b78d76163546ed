@@ -1,0 +1,20 @@
+
+import  java.util.*;
+class TempConversion{
+ 
+
+public static void main(String [] args){
+Scanner   s=new Scanner(System.in);
+double fahrenite,celsius;
+System.out.println("enter temp in celsius");
+fahrenite =s.nextDouble();
+System.out.println(" temp in fahernite"+" "+(5*(fahrenite)+(32*5)/5);
+}
+}
+
+
+
+
+
+//for celsius to fahrenite (9*(celsius) +( 32*5))/5)
+//fahrenite to celsius (5*(fahrenite)+(32*5)/5)

@@ -1,0 +1,20 @@
+
+	
+public class CarHetro {
+		String name;
+		int age ;
+		  //constructer
+		public StudentHetrgenuoiss(String name, int age) {
+			super();
+			this.name = name;
+			this.age = age;
+		}
+		// to string methos
+		@Override
+		public String toString() {
+			return name+" "+age;
+		}
+
+		}
+
+}

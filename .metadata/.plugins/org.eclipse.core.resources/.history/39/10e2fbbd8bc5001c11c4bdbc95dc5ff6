@@ -1,0 +1,13 @@
+
+public class Father1 {
+static int name;
+
+public static void main(String[] args) {
+ Father1.name();
+}
+
+private static void name() {
+	// TODO Auto-generated method stub
+	
+}
+}

@@ -1,0 +1,27 @@
+
+public class NotMachinhException {
+	public static void main(String[] args) {
+		
+		
+		System.out.println("start");
+		System.out.println("statment-1");
+		x
+		try {
+			System.out.println(100/0);  // we going to put error or exception inside try
+		}
+		
+		
+		catch(NullPointerException a)  // the parmaetre pass in catch is type of diffrent from what wrror occured the exception type type difrerent writen 
+			{System.out.println("this is artimatuc excepton");
+		}
+		//System.out.println(100/0); 
+	
+	System.out.println("End");
+	}
+}
+//o/p
+//start
+//statment-1
+//Exception in thread "main" statment-2
+//java.lang.ArithmeticException: / by zero
+//	at NotMachinhException.main(NotMachinhException.java:10)

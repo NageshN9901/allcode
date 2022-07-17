@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Genrlztion {
+
+}
+class coffee{
+	
+}
+class tea{
+	
+}
+
+
+class Ven{
+	
+	Genrlztion but1(){
+		Scanner sc=new Scanner(System.in);
+		
+		int n=sc.nextInt();
+		System.out.println("enter 1 for coffee");
+		if(n==1)
+			coffee c= new coffee();
+		return c;
+	}
+		
+	}
+	
+

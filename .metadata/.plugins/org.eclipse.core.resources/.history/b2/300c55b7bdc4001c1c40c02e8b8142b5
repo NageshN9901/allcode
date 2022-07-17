@@ -1,0 +1,25 @@
+
+public class Son extends Farth{
+public void display(Father f )
+{
+	
+	System.out.println("Father1 f");
+}
+public void display(Son1 s)
+{
+	
+	System.out.println("Son1 s");
+}
+public static void main(String[] args, Son1 Father) {
+	
+	Son1 s=new Father1 ();
+	//Father1 d =(Father1)s;
+//d.display(Father ); // it will tAKE SAME PARAMETRE TYPE\
+	
+	s.display(null);
+	
+}
+
+	
+}
+

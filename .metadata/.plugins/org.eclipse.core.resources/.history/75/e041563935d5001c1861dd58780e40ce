@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class FirstNPrim {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("eneter n");
+		int n=sc.nextInt();
+		printprime(n);// methof need 1
+	
+	}
+	static void printprime(int n)
+	{
+		for (int i=1;n>=0;i++)// becuse 1 is also rime and n>0 should be
+			
+	
+	}
+}

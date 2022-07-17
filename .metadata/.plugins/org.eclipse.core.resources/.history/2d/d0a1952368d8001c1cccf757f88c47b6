@@ -1,0 +1,13 @@
+//import java.util.*;
+import java.util.Collections;
+import java.util.TreeSet;
+
+public class Treedemo {
+
+	TreeSet<String> ts=new TreeSet<String>(Collections.reverseOrder());
+	ts.add("papaya");
+	ts.add("mango");
+	
+	
+	
+}

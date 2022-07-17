@@ -1,0 +1,11 @@
+import  java.util.*;
+public class TestHetroObject {
+public static void main(String[] args) {
+	StudentHetrgenuoiss s1=new StudentHetrgenuoiss("viajay",3477637);
+	StudentHetrgenuoiss s2=new StudentHetrgenuoiss("tiajay",355477637);
+	
+	CarHetro c1=new CarHetro("tewytewt",21761766);
+	CarHetro c2=new CarHetro("fegfge",121761766);
+	
+}ArrayList<Object>al=new ArrayList<Object>();
+}

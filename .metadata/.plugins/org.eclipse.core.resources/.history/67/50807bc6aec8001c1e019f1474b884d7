@@ -1,0 +1,24 @@
+
+public interface Inf0 extends Iswtich0,Iregulator0,Inff20{
+
+
+	@Override
+	public void increasespeed(); 
+	
+	@Override
+	public void reducespeed(); 
+	
+	@Override
+	public void switchon(); 
+	@Override
+	public void switchoff();
+
+	public void repir();
+
+	
+	//5 by inteface extending all interface by ,
+	
+	////this is sub interface can inherte multiplainterface using keywaord extendds
+	
+	
+	}

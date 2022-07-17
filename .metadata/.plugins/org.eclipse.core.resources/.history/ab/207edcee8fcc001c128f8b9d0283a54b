@@ -1,0 +1,34 @@
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class MethodsOfCollction {
+
+
+public static void main(String[] args) {
+	
+	
+	
+	Collection<String> rcb=new ArrayList<String>();//
+	
+	rcb.add("kohli");  //using add collction method to add method used to used add specfic element into a set of collction
+		rcb.add("maxwell");
+			rcb.add("dinsh")	;
+			
+			Collection<String> mi=new ArrayList<String>();
+			mi.add("rohith sharama");
+			mi.add("ishan kishan");
+			mi.add("boomraha");
+			
+			Collection <String> kkr =new ArrayList<String>();
+			kkr .add("sheryass");
+			kkr .add("RUSSEL");
+			kkr.add("sunil");
+			Collection<String> ipl=new ArrayList<String>();
+			ipl.addAll(rcb);// adding all 3 groups one by one into ipl
+			ipl.addAll(mi);
+			ipl.addAll(kkr);  // here added all into ipl
+			//ipl.addAll(rcb); it will reapet
+	System.out.println(ipl);  //[kohli, maxwell, dinsh, rohith sharama, ishan kishan, boomraha, sheryass, RUSSEL, sunil] 
+			System.out.println(ipl.size());
+}
+}

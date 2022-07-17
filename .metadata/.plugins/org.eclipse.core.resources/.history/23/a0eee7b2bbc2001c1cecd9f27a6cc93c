@@ -1,0 +1,36 @@
+
+public class Brother {
+
+	
+	
+	Brother(int x)
+	{
+		
+		
+		System.out.println("Brther o1");
+	}
+	
+	
+	
+	Brother()
+	{
+		
+		
+		System.out.println("broteher whh");
+	}
+}
+
+
+class Sister extends Brother{
+	
+	
+	Sister(){
+		System.out.println("Sistere");
+	}
+	 public static void main(String[] args) {
+		
+			Sister s1=new Sister ();
+		 
+	}
+	
+}

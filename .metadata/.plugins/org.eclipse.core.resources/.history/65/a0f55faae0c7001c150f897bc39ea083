@@ -1,0 +1,24 @@
+
+public class FanIMPL implements Iswtich,Iregulator {
+
+	
+	public void increasespeed() {
+		System.out.println("fan speed increase");
+	}
+	
+	
+	public void reducespeed() {
+		
+		System.out.println("fan speed reduce");
+	}
+	
+	
+	public void switchon() {
+		System.out.println("fan swtich on");
+		
+	}
+	public void swtichon() {
+		System.out.println("fan swtich on"));
+		
+	}
+}

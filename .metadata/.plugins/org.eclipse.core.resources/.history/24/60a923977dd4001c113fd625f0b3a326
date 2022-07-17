@@ -1,0 +1,76 @@
+import java.util.Scanner;
+
+public class ChcekARm {
+public static void main(String[] args) {
+	
+
+	Scanner sc=new Scanner(System.in);
+	int n=sc.nextInt();
+	String st=checkXp(n);
+	System.out.println(mn +"mbet is");
+	
+static String check(int input)
+{
+int temp=input,sum=0;
+int dc=input+" ".length();
+do {
+	
+	
+	int r=input%10;
+	sum=sum+(int)Math.pow(r, dc);
+	inout=(input/10);
+}while(input!=0);
+if(sum==temp)
+	return  "yes";
+else
+	return   "no";
+}
+}
+
+
+}
+
+
+
+//
+//import java.util.Scanner;
+//public class xylemw {
+//public static void main(String[] args) {
+//
+//
+//	
+//	 Scanner sc=new Scanner(System.in);
+//		int n=sc.nextInt();
+//	
+//		String st=checkXp(n);
+//		 System.out.println(n+" is"+st+"number");
+//
+//}
+//
+//		
+//		 static String checkXp(int x) {
+//				 int os=0,ms=0;
+//				 os=os+x%10;
+//				 x=x/10;
+//				 while(x>9)
+//				 {
+//					 ms=ms+x%10;
+//					 x=x/10;}
+//					 
+//					 { 
+//					 os=os+x;
+//					 
+//					 if(os==ms)
+//						 return  "xylem";
+//					 else
+//						return "phlome";
+//								 
+//					 
+//				 }
+//				
+//				 }
+//				 
+//				
+//		 }
+//
+//

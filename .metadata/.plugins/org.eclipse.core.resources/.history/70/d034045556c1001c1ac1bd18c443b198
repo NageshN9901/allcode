@@ -1,0 +1,14 @@
+
+public class King {
+int price;
+double discount;
+
+void cal()
+{
+	
+	System.out.println("Total price");
+}
+
+
+
+}

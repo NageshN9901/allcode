@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Sample {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	try {
+		
+		
+		int n=Integer.parseInt(sc.nextLine());
+		if(pp%n==0)
+			System.out.println(n+"is factor of 99");
+	}
+}
+}

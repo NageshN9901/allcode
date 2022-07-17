@@ -1,0 +1,7 @@
+
+public interface IMouse {
+
+	
+	
+	// automaatcally public and abstarct
+}

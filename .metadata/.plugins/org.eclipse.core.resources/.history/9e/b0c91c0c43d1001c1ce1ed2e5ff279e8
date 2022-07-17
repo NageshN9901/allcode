@@ -1,0 +1,9 @@
+
+public class TestForArraylistStore {
+public static void main(String[] args) {
+	ArraylistStoreSameObjectEmplyee a1=new ArraylistStoreSameObjectEmplyee("ahul",14444);
+	ArraylistStoreSameObjectEmplyee a2=new ArraylistStoreSameObjectEmplyee("bahukl",14444);
+	ArraylistStoreSameObjectEmplyee a3=new ArraylistStoreSameObjectEmplyee("cahul",14444);
+	ArraylistStoreSameObjectEmplyee a4=new ArraylistStoreSameObjectEmplyee("dabul;",14444);
+}
+}

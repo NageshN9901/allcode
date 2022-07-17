@@ -1,0 +1,21 @@
+
+public interface Inf extends Iswtich,Iregulator,Inff2 {
+
+	public void increasespeed() ;
+	
+
+	public void reducespeed() ;
+	
+	public void switchon();
+	
+	public void switchoff() ;
+
+	
+	public void repir();
+	
+	////this is sub interface can inherte multiplainterface using keywaord extendds
+	
+	
+	
+	
+}

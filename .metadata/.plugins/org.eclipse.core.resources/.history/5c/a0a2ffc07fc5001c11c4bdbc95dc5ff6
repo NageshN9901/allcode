@@ -1,0 +1,7 @@
+
+public class Father {
+static void drinking() {
+	
+	System.out.println("coffeeee");
+}
+}

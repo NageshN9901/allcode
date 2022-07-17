@@ -1,0 +1,14 @@
+
+public class MethodOverDaughter extends MethodoverFather {
+	void drinking()
+	{
+		
+		System.out.println("Horilicks");
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,29 @@
+
+public class Father {
+
+	
+	
+	Father()
+	{
+		
+		System.out.println("parent -constreucter");
+	}
+	
+	
+	
+	
+	
+
+public class Son extends Father{
+	Father{
+		
+		
+		
+		Son()
+		{
+	
+			System.out.println("son");
+		}
+	}
+}
+}

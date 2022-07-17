@@ -1,0 +1,60 @@
+
+public class NonprimativearrayBike {
+	String name;
+	int price;    //proprtiess
+	
+	NonprimativearrayBike(String n,int p)
+	{
+		this.name=n;
+		this.price=p;  //intailzing
+		
+	}
+
+	public static void main(String[] args) {
+		
+		
+		NonprimativearrayBike m1=new NonprimativearrayBike("intercepeter",1111111);// creating 4 objests
+		NonprimativearrayBike m2=new NonprimativearrayBike("duke",222222);
+		NonprimativearrayBike m3=new NonprimativearrayBike("ninja-600",33333333);
+		NonprimativearrayBike m4=new NonprimativearrayBike("intercepeter",4444444);
+		
+		
+		NonprimativearrayBike s[]= {m1,m2,m3,m4};  // array
+		
+		for (int i=0; i<s.length;i++)
+		
+		{
+			
+		System.out.println(s[i]);//object aadadress 
+		//NonprimativearrayBike@15db9742
+		//NonprimativearrayBike@6d06d69c
+		//NonprimativearrayBike@7852e922
+		//NonprimativearrayBike@4e25154f
+		}
+		
+
+		
+
+		for (int i=0; i<s.length;i++)
+		
+		{
+			
+		System.out.println(s[i].name+" "+s[i].price);//object detils
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

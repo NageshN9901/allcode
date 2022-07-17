@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class drink {
+
+}
+class coffeee extends Genrlztion
+  {
+	
+}
+class tea  extends Genrlztion {}

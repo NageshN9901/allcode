@@ -1,0 +1,25 @@
+
+public class MethodOverDaughter extends MethodoverFather {
+	
+	
+	//subclass
+	//extend means taking  acquaring that class poroprtyes
+	void drinking()
+	{
+		
+		System.out.println("Horilicks");
+	}
+
+	public static void main(String[] args) {
+		MethodOverDaughter d=new MethodOverDaughter();
+		System.out.println(d.car);
+		System.out.println(d.money);
+		d.drinking();
+			
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,63 @@
+
+public class Bike {
+
+	
+	
+	String name,color;
+
+//	@Override // take right click 
+//public String toString() {
+//	return "Bike [name=" + name + ", color=" + color + "]";
+	
+//	public  String toString() {
+//		
+//		return this.name+" "+this.color;
+//	
+//	
+//}
+
+	public Bike(String name, String color) {
+		super();
+		this.name = name;
+		this.color = color;  // ctreate construcetr right click source creste automatied constrers	
+	}
+	
+}
+class Car 
+{
+	String brand;
+	int price;
+	
+	
+	
+//	
+//	@Override
+//	public String toString() { //
+//		return "Car [brand=" + brand + ", price=" + price + "]";
+//	}
+
+
+
+
+	public Car(String brand, int price) {
+		//super();
+		this.brand = brand;
+		this.price = price;
+	}
+
+//public  String toString() {
+//		
+//		return this.brand+" "+this.price;
+//	
+	
+}
+//
+//	@Override
+//	public String toString() {
+//		return "Car [brand=" + brand + ", price=" + price + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
+//				+ ", toString()=" + super.toString() + "]";
+//	}
+	
+	
+	
+}

@@ -1,0 +1,19 @@
+
+public class Father {
+int money=10000;
+String car="bmw";
+void drink() {
+	System.out.println("drink");
+	
+	
+}
+}
+class son  extends Father{
+	String bike="duke";
+	public static void main(String[] args) {
+		
+	}
+}
+
+
+

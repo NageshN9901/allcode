@@ -1,0 +1,18 @@
+
+
+
+public class daughter  extends Father1{
+void drink () {
+	System.out.println("water");
+	
+}
+
+
+
+public static void main(String[] args) {
+	Father1 f=new daughter();
+	f.drink();
+}
+}
+
+

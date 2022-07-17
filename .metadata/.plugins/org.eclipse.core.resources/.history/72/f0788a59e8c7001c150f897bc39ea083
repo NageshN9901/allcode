@@ -1,0 +1,4 @@
+
+public interface Inf extends Iswtich,Iregulator,Inff2 {
+
+}

@@ -1,0 +1,18 @@
+
+public class Student {
+
+	String name;
+	static String course="dev";
+	static int Eid =12323;
+	
+	
+	public static void main(String[] args) {
+		Student s1=new Student();
+		s.name="nagesh";
+		Student s2=new Student();
+		s.name="mahesh";
+		Student s3=new Student();
+		s.name="ramesh";
+	}
+	
+}

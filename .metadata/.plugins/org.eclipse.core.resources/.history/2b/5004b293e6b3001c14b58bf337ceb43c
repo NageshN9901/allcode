@@ -1,0 +1,39 @@
+
+public class Student1 {
+	  String name;
+	  int pys;
+	  int chem;
+	  int eng;
+	    
+	  Student1 (String n,int p, int c,int e)
+	  {
+		this.name=n;
+		this.pys=p;
+		this.chem=c;
+		this.eng=e;
+		 
+	  }
+	  
+	  void perc()
+	  
+	  
+	  {
+		System.out.println("name;"+this.name);  
+		System.out.println("pys;"+this.pys); 
+		System.out.println("chem;"+this.chem); 
+		System.out.println("eng;"+this.eng); 
+	int total =this.pys+this.chem+this.eng;
+	double perc =total/300.0*100.0; 
+	System.out.println("total"+total);
+	System.out.println(perc);
+	  }
+	public static void main(String[] args) {
+		
+		Student1 s1=new Student1("nagesh",78,98,77);
+		System.out.println();
+		Student1 s2=new Student1("hemanth",99,99,55);
+		s1.perc();
+		s2.perc();
+	}
+
+}

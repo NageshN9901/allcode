@@ -1,0 +1,33 @@
+
+public class Nagesh {
+
+	public static void main(String[] args) {
+		double s[]=new double[4];
+		s[0]=55.88;
+		s[1]=66.00;
+		s[2]=77.99;
+		s[3]=23.876;
+		
+		double x=s[3];
+		double y=s[2];
+		 System.out.println(x +y+x);
+		   System.out.println("forward dierection");
+		   for (int i=0;i<4;i++)
+		   {
+			   
+			   System.out.println((s[i]));
+		   }
+		 
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

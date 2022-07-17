@@ -1,0 +1,6 @@
+package Strings;
+
+public class RevrseTheStringss {
+//    i/p    ramesh is good boy 
+	// o/p   boy  good is ramesh
+}

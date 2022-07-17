@@ -1,0 +1,22 @@
+
+public class Test {
+
+	
+	
+
+	
+		
+		int price;
+		String name;
+		
+
+	
+	public static void main(String[] args) {
+		Test t=new Test();
+		
+		t.price();
+	}
+
+
+
+	

@@ -1,0 +1,19 @@
+
+public class Father {
+
+	
+	
+	Father()
+	{
+		
+		System.out.println("parent -constreucter");
+	}
+	
+
+
+
+		
+		
+
+}
+

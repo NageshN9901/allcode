@@ -1,0 +1,45 @@
+
+public class Car {
+String name,color;
+
+
+
+Car(String n,String t)
+{
+	this.name=n;
+	
+	this.color=t;
+}
+
+void drive()
+{
+	
+	System.out.println("Drive car");
+}
+
+public void ride() {
+	// TODO Auto-generated method stub
+	
+}
+
+
+}
+class bike{
+	String name,color;
+	bike(String n,String t)
+	{
+		this.name=n;
+		
+		this.color=t;
+	}
+
+	void ride()
+	{
+		
+		System.out.println("Drive bike");
+	}
+	
+}
+
+
+

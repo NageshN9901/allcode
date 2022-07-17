@@ -1,0 +1,43 @@
+
+public class Car {
+
+	Car(){
+		
+		
+		
+		this(55);
+		System.out.println(100);
+	}
+	
+	Car(int x){
+	this("100",40);
+	System.out.println(x);
+}
+	
+	Car(String y){
+		
+		super();
+		System.out.println(567);} //first falowwed by string and int
+	
+		
+		Car(int x,String y){
+		this();
+		System.out.println(x);
+	}
+	
+	
+	Car( String a,int b)
+	{
+		
+		this("95");
+		
+		
+		System.out.println(b);
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		Car c=new Car(10,"15");
+	}
+}

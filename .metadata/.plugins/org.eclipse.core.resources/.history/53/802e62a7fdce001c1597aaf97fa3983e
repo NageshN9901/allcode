@@ -1,0 +1,13 @@
+
+
+	import java.util.Scanner;
+	public class WhilelopPrimeevenCount {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter integer value");
+		int n=sc.nextInt();
+		int evensum=0;
+	int 	oddsum=0;
+	int 	start=1;
+		
+}

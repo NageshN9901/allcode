@@ -1,0 +1,27 @@
+
+public interface SamplePrintablestep1 {
+
+	void print();
+}
+
+
+interface Showable{
+	void print();
+}
+class Epson implements SamplePrintablestep1,Showable{
+	
+ public void print() {
+	 
+	 
+	 System.out.println("hpo printe spson s23");
+ }
+
+
+
+
+
+public static void main(String[] args) {
+	Epson o=new Epson();
+	o.print();
+}
+}

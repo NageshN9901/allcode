@@ -1,0 +1,22 @@
+
+public class StaticObject {
+
+	
+	
+	
+	int b=100;
+
+	public StaticObject(int b) {
+		super();
+		this.b = b;
+	}
+	
+	
+	void test() {
+		System.out.println("ho iam working");
+		
+		
+	}
+	
+	
+}

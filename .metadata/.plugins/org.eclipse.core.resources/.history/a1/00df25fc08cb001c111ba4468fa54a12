@@ -1,0 +1,12 @@
+
+public class DataComparableTo {
+public static void main(String[] args) {
+	
+	
+	int i=10;
+	int k=210;
+	
+	Integer fn=i;
+	Intger sc=k;
+}
+}

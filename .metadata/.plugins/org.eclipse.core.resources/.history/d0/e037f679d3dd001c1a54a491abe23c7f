@@ -1,0 +1,12 @@
+
+public class Father {
+int money=10000;
+String car="bmw";
+void drink() {
+	System.out.println("drink");
+	
+	
+}
+}
+
+

@@ -1,0 +1,14 @@
+import java.util.Stack;
+
+public class StackDemo{
+	public static void main(String[] args) {
+		Stack<String> st=new Stack<>();
+		st.push("nagesh");// push is inbuiltmethod  is used to puish the elment into Stack
+		st.push("mahesh");
+		st.push("pradeep");
+		st.push("suri");
+		st.push("abhi");
+		System.out.println(st.search("al"));// -1 o/p becuse if data is not there
+	}
+
+}

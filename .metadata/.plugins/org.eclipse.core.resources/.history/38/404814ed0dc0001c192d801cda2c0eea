@@ -1,0 +1,10 @@
+
+public class DataWideing {
+	
+	
+public static void main(String[] args) {
+	byte b1=10;
+	byte x=b1;
+	System.out.println(b1 +" "+x);
+}
+}

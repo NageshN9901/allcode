@@ -1,0 +1,7 @@
+import java.util.*;
+public class Treedemo {
+
+	TreeSet<String> ts=new TreeSet<String>(Collections.reverseOrder());
+	
+	
+}

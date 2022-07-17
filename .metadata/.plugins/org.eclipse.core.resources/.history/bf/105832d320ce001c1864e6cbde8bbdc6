@@ -1,0 +1,7 @@
+
+public class IncorrectPinException extends RuntimeException{
+
+}
+  class InsuffcientException extends RuntimeException{
+	  
+  }

@@ -1,0 +1,22 @@
+
+public class MethodOverSon extends MethodoverFather {
+	// subclass of super class 
+	//3rd progam
+
+	
+	
+	void drinking()
+	{
+		@override
+		System.out.println("water");
+	}
+	
+	public static void main(String[] args) {
+
+		MethodOverSon s= new MethodOverSon();
+		System.out.println(s.car);
+		System.out.println(s.money);
+		s.drinking();
+	}
+
+}

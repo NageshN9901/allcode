@@ -1,0 +1,17 @@
+package Strings;
+import java.util.Scanner;
+public class RevrseTheStringss {
+//    i/p    ramesh is good boy 
+	// o/p    hsemar si doog yob
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+	Scanner sc=new Scanner (System.in);
+	
+			
+	}
+	
+}

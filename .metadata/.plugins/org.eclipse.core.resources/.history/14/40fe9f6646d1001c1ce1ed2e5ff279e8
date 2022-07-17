@@ -1,0 +1,22 @@
+
+	
+public class CarHetro {
+		String brand;
+		int preice ;
+		  //constructer
+		
+		public CarHetro(String brand, int preice) {
+			super();
+			this.brand = brand;
+			this.preice = preice;
+		
+		}
+		// to string methos
+		@Override
+		public String toString() {
+			return name+" "+age;
+		}
+
+		}
+
+}

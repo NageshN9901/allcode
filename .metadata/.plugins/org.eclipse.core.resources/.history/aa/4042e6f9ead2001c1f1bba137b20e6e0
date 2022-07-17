@@ -1,0 +1,4 @@
+
+public class ListIterter {
+// listItertor is sub Interface of  List iInterfaces so we cant creat object
+}

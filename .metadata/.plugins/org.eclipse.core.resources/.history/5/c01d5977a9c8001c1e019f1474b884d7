@@ -1,0 +1,5 @@
+
+public interface Inff2 {
+public static void repir();
+
+}

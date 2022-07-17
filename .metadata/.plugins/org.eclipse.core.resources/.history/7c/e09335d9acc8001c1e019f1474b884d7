@@ -1,0 +1,11 @@
+
+public class Sample1Aclass implements SampleSolution{
+	public void hello() {
+		System.out.println("EHHJP OOO");
+	}
+	public void welcome() {
+		System.out.println("EHHJP OOO");
+	}
+
+
+}

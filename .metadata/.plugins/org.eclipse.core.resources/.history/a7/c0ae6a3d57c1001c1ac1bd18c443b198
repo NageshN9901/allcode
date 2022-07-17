@@ -1,0 +1,36 @@
+
+public class King {
+int price=100;
+double discount;
+
+void cal()
+{
+	
+	System.out.println("Total price");
+}
+
+King( int price,double discount)
+
+{
+	
+	this.price=price;
+	this.discount=discount;
+}
+
+void detils()
+{
+	
+	System.out.println("only discount price");
+
+if(price>=100)
+{
+	
+	System.out.println("hi");
+
+}
+else
+{
+	
+	System.out.println("hello");
+}
+}

@@ -1,0 +1,14 @@
+
+public interface Is {
+
+	
+	void swon();
+	void swoff();
+}
+
+interface Ir {
+
+	// its is not public
+	void insp();
+	void desp();
+}

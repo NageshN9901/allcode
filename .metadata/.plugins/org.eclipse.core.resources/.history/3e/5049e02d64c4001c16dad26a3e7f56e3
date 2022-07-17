@@ -1,0 +1,7 @@
+
+public class Son1 {
+public void display(Son s)
+{
+	System.out.println("son");
+}
+}

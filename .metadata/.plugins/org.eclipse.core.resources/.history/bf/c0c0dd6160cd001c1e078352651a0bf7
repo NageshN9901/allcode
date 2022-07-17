@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class FinallyblockWithMatchingException {
+
+	
+	
+	public static void main(String[] args) {
+	System.out.println("satart");
+	Scanner sc=new Scanner(System.in);
+	try {
+		
+		
+		System.out.println("try block");
+		System.out.println(100/0);
+	}
+	}
+}

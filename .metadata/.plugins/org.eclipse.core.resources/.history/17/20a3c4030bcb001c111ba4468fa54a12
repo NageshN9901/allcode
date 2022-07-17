@@ -1,0 +1,34 @@
+ 
+import java.util.Arrays;
+// if want use array class we need import frfom package
+public class SortingOnArray {
+public static void main(String[] args) {
+	
+	
+	
+	String[]  arr= {"Red","green","blue","white","ywll"};
+	for (int i=0; i<arr.length;i++)
+		System.out.println(arr[i]);//Red
+	//green
+	//blue
+	//white
+	//ywll
+
+	
+	Arrays.sort(arr);   // sorting inbuilkt method
+	for (int i=0;i<arr.length;i++)
+		System.out.println(arr[i]);
+	
+//Red
+	//blue   ascending order
+	//green
+	//white
+//	ywll
+	for (int i=0;i<arr.length;i++)
+		System.out.println(arr[i]);
+	
+
+			 
+}
+
+}

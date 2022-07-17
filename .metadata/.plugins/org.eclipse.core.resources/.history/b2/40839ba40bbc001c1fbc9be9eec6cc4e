@@ -1,0 +1,37 @@
+
+public class NonprimativearrayBike {
+	String name;
+	int price;
+	
+	NonprimativearrayBike(String n,int p)
+	{
+		this.name=n;
+		this.price=p;  //intailzing
+		
+	}
+
+	public static void main(String[] args) {
+		
+		
+		NonprimativearrayBike m1=new NonprimativearrayBike("intercepeter",1111111);// creating 4 objests
+		NonprimativearrayBike m2=new NonprimativearrayBike("duke",222222);
+		NonprimativearrayBike m3=new NonprimativearrayBike("ninja-600",33333333);
+		NonprimativearrayBike m4=new NonprimativearrayBike("intercepeter",4444444);
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

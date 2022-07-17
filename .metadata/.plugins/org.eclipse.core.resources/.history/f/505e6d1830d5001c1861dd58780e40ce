@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Primecountn {
+public static void main(String[] args) {
+	System.out.println("enerter n");
+	Scanner sc=new Scanner(System.in);// redaer
+	
+	int n=sc.nextInt();// input
+	
+	//so need one method for read data
+	int pc=countprime(n);
+	System.out.println(n+"its prime"+pc);
+}
+}

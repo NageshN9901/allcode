@@ -1,0 +1,12 @@
+
+public class Withparameter {
+
+	 Withparameter(int x)
+	 {
+		 
+		 
+		 System.out.println("father-2");
+	 }
+	
+	
+}

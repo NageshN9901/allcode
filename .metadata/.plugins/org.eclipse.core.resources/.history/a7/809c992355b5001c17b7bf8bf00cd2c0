@@ -1,0 +1,22 @@
+
+public class Retrundemo {
+	
+	
+	
+	
+	String display1()
+	{
+		
+		System.out.println("display-1");
+		retrun null;
+		
+		
+	}
+
+	public static void main(String[] args) {
+		
+		Retrundemo d1=new Retrundemo();
+		d1.display1();
+	}
+
+}

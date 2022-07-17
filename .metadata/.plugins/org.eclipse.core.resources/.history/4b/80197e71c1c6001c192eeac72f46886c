@@ -1,0 +1,38 @@
+import java.util.*;
+public class MainResul {
+
+	
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+				System.out.println("enter pyscis marks");
+		double a=sc.nextDouble();
+		System.out.println("enter englkish marks");
+		double b=sc.nextDouble();
+		System.out.println("enter maths marks");
+		double c=sc.nextDouble();
+		System.out.println("enter boilogy marks");
+		double d=sc.nextDouble();
+		double total=a+b+c+d;
+		double avg=total/4*100;
+		if(avg>=85)
+			System.out.println("this disticntionm"+avg);
+		if(avg>=60)
+			System.out.println("this first class"+avg);
+		if(avg>=50)
+			System.out.println("this seconf "+avg);
+		if(avg>=35)
+			System.out.println("this pass"+avg);
+		if(avg<35)
+			System.out.println("better luck next time failed"+avg);
+		else 
+			System.out.println("invalid");
+	
+	}
+
+	
+	}
+	
+	
+	
+	
+}

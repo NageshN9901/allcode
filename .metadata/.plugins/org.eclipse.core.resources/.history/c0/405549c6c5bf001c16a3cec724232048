@@ -1,0 +1,19 @@
+
+public class Bbike1 {
+
+	
+	
+	String name;
+	String color;
+	Bbike1(String n,String c)
+	{
+		
+		this.name=n;
+		this.color=c;
+	}
+	public static void main(String[] args) {
+		Bbike1  b=new Bbike1("nahesg","bagasqnsbbh");
+		Bbike1  b2=new Bbike1("s","ba");
+		Bbike1  b3=new Bbike1("na","bar");
+	}
+}

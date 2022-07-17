@@ -1,0 +1,7 @@
+import  java.util.*;
+public class TestHetroObject {
+public static void main(String[] args) {
+	StudentHetrgenuoiss s1=new StudentHetrgenuoiss("viajay",3477637);
+	
+}
+}

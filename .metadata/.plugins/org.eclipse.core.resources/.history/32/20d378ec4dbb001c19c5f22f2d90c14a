@@ -1,0 +1,10 @@
+
+public class MethodoverrideFartuner extends MethodoverrideCar{
+	
+	void speeddetails()
+	{
+		
+		System.out.println("180 kmph");
+	}
+
+}

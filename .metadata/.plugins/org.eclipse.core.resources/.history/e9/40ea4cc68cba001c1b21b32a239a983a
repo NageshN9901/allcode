@@ -1,0 +1,17 @@
+
+public class MethodreturnNonVendingMachine {
+	class coffee{}
+	class tea{}
+	
+	
+	
+	
+	coffee button1()
+	{
+		
+		
+		coffee c=new coffee();
+		return c;
+	}
+
+}

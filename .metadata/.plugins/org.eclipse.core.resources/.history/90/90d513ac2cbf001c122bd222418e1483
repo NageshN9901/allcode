@@ -1,0 +1,15 @@
+
+public class WrapperclassTest13 {
+public static void main(String[] args) {
+	
+	byte b=10;       Byte wb=new Byte(b);
+	short s=100;          Short ws=new Byte(s);
+	int i=1000;                    Integer wb=new Integer(i);
+	long l=10000000000000l;        Byte wb=new Byte(b);
+	float f=10.0f;    Byte wb=new Byte(b);
+	double d=100.0;      Byte wb=new Byte(b);
+ boolean x=true;           Byte wb=new Byte(b);
+ char u='c';               Byte wb=new Byte(b);
+	
+}
+}

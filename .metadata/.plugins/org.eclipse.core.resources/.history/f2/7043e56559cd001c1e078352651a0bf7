@@ -1,0 +1,33 @@
+// when to use multple catch block means if the handling scenrio  same then we go for multple catch block
+public class multipleExceptionHnadleing {
+public static void main(String[] args) {
+	System.out.println("stsrt");
+	try {
+	System.out.println(100/0);
+		int x[]= {};
+		System.out.println(x[3]);
+	}
+	
+	
+	
+	
+		catch(ArrayIndexOutOfBoundsException t)  
+		
+		{
+			
+					
+					System.out.println("hi");
+		}
+		catch(ArithmeticException e)
+		{
+			
+			System.out.println("Hello");
+		}
+	
+}
+
+}
+
+//o/p
+//stsrt
+//Hello

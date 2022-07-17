@@ -1,0 +1,18 @@
+
+public class gomoto extends InherDelivary {
+	
+	void ratings() {
+		System.out.println(" gomoto ratings are 4.2");
+	}
+
+	public static void main(String[] args) {
+		gomoto g=new gomoto();
+		g.time=15;
+		g.charge=180;
+		g.dish="dam dum Biryani";
+		
+		
+
+	}
+
+}

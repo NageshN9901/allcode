@@ -1,0 +1,6 @@
+
+public class ThrowsIndcating {
+public static void main(String[] args) {
+	System.out.println("some code sratsr");
+}
+}

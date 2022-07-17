@@ -1,0 +1,20 @@
+
+public class ArrayTest {
+	public static void main(String[] args) {
+		
+	
+	int array[]=new int[4];//instatntion
+	array[0]=10;
+	array[1]=20;
+	array[2]=30;
+	array[3]=40;
+	System.out.println("feting particular data from array");
+	int x=array[1];
+	System.out.println(x);//or 1
+	System.out.println(array[2]);
+	System.out.println("feting all data from array");
+	
+
+	}
+	
+}

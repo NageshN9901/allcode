@@ -1,0 +1,17 @@
+
+public class Son {
+void display(Son s)
+{
+	System.out.println("son");
+}
+
+
+
+
+public static void main(String[] args) {
+	Son s1=new Son();
+	s1.display(null);
+	s1.display(s1);
+	s1.display(new Son());
+}
+}

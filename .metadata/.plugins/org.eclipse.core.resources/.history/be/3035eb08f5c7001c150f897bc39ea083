@@ -1,0 +1,28 @@
+
+public interface Inf extends Iswtich,Iregulator,Inff2{
+
+
+	@Override
+	public void increasespeed(); 
+	
+	@Override
+	public void reducespeed(); 
+	
+	@Override
+	public void switchon(); 
+	@Override
+	public void switchoff() {
+		System.out.println("fan swtich on");
+		
+	}
+
+	@Override
+	public void repir() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	////this is sub interface can inherte multiplainterface using keywaord extendds
+	
+	
+	}

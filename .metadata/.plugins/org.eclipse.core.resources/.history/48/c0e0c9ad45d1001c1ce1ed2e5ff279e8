@@ -1,0 +1,10 @@
+
+public class StudentHetrgenuoiss {
+String name;
+int age ;
+@Override
+public String toString() {
+	return "StudentHetrgenuoiss [name=" + name + ", age=" + age + "]";
+}
+
+}

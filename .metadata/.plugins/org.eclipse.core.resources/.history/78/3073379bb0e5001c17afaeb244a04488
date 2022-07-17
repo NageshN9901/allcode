@@ -1,0 +1,55 @@
+package Strings;
+import java.util.Scanner;
+public class RevrseTheStringss {
+//    i/p    ramesh is good boy 
+	// o/p    hsemar si doog yob
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+	Scanner sc=new Scanner (System.in);
+	
+			System.out.println("enetr the string");
+	String st=sc.nextLine();// for string using input method
+	st=revrseords(st);
+
+	System.out.println(st);
+	}
+	
+	static String revrseords(String st)// method
+	{
+		
+	char ch[]=st.toCharArray();//onverts this string to a new character array.
+		// to store the string values
+		for(int i=0; i<ch.length; i++)
+		{
+			
+			
+			int k=i;
+		while(i<ch.length&& ch[i]!=' ')
+		{
+			i++;
+		}
+	   int j=i-1; 
+	   String rs="";
+	   while(j>=k)
+	   {
+		
+		   rs=rs+ch[j];
+		   j--; }
+		  if(i<ch.length)
+			  rs=rs+ch[i];
+		  
+		  
+				  
+	  
+		
+	
+		}
+		return rs;
+	}
+	
+	
+}

@@ -1,0 +1,17 @@
+
+public class InheritVagetable {
+
+	String Quantity;
+	int price;
+
+	void Wash() {
+		System.out.println("I am washing vegetabale>>>>>>>");
+		
+	}
+
+	void chop() {
+		System.out.println("I am chopping vegetabale>>>>>>>");
+		
+		
+	}
+}

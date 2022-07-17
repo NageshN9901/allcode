@@ -1,0 +1,18 @@
+
+public class Sample2Aclass  implements Sample2Solution{
+public void Hello() {
+	
+	System.out.println("hello word howe are you");
+}
+public void Welcome()
+{
+	
+System.out.println("Welcpome to my world");	
+}
+
+public static void main(String[] args) {
+	Sample2Aclass a=new Sample2Aclass  ();
+	a.Hello();
+	a.Welcome();
+}
+}

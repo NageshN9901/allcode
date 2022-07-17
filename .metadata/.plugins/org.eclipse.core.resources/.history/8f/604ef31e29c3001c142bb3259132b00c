@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class CircleDetils {
+
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		//System.out.println(Math.PI);
+		Scanner sc=new Scanner(System.in);
+		System.out.println(" Enter the radius");
+		double raduis =sc.nextDouble();
+		
+		double area =Math.PI*(raduis*raduis);
+		//Math.PI is inbulit function for pi 
+		//area of circle is pi*r^2
+		
+		//double area =3.141592653589793*(raduis*raduis);
+		double circumfernce=2*Math.PI*raduis;
+		
+		//curcumfernce =2*pi*r
+		System.out.println("area= "+area);
+		System.out.println("circumfernce "+ circumfernce);
+	}
+}

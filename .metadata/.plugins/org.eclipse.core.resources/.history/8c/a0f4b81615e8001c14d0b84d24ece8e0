@@ -1,0 +1,11 @@
+package MATP;
+
+public class arrayobject {
+	public static void main(String[] args) {
+		 bymethds  mt=new  bymethds ();
+		 System.out.println("read matreox");
+		 int [][]x = mt.readmat();// calling method with stroing with its retuirn typesd
+		 System.out.println("eneterd matrix");
+		 mt.dismat(x);
+	}
+}

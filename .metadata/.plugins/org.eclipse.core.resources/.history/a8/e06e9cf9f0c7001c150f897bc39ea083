@@ -1,0 +1,14 @@
+
+public class Consumar11 {
+
+	
+	public static void main(String[] args) {
+		//FanIMPL r = new FanIMPL();
+		Inf  r = new FanIMPL();
+		r.switchon();
+		r.switchoff();
+		
+		r.reducespeed();
+		r.increasespeed();
+	}
+}

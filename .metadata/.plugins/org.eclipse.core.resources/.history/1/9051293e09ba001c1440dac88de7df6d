@@ -1,0 +1,11 @@
+
+public class MethodOverSon extends MethodoverFather {
+	// subclass of super class 
+	//3rd progmam
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

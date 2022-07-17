@@ -1,0 +1,32 @@
+
+public class Father {
+
+	
+	
+	Father()
+	{
+		
+		System.out.println("parent -constreucter");
+	}
+	
+
+
+public class Son extends Father{
+
+		
+		Son()
+		{
+	
+			System.out.println("son");
+		}
+}
+		
+		
+	public static void main(String[] args) {
+		Son s1=new Son();
+	}	
+		
+		
+
+}
+

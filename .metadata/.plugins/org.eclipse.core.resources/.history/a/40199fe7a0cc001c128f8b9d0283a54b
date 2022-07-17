@@ -1,0 +1,28 @@
+
+public class OnlyoneExceptionOneTime {
+public static void main(String[] args) {
+	System.out.println("start");
+	try {
+		System.out.println(100/0);// arthmatic  1
+		int x[]= {};  //arrayindex
+		System.out.println(x[3]);
+	}
+	
+	
+	
+	catch(Exception yw)  //passing arthmatic exception to first risky code  1
+	{
+		System.out.println("there is arthmatic exception");
+	}
+
+	
+	
+	
+	System.out.println("end");
+}
+}
+
+// it will take first exception only it is run time exception
+//start
+//there is arthmatic exception
+//end

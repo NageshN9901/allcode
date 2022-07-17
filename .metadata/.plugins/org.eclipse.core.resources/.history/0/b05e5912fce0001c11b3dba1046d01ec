@@ -1,0 +1,33 @@
+//import java.util.HashSet;
+//import java.util.LinkedHashSet;
+import java.util.HashSet;
+//import java.util.LinkedHashSet;
+import java.util.Set;
+//import java.util.TreeSet;// will not accept null
+//mport java.util.LinkedHashSet;
+
+//Set>>>>> fALLOWWS lINKEDsET Hsahset treeset
+public class SetC {
+
+	
+	public static void main(String[] args) {
+		//Set<String >set=new HashSet<>(); // childs of set
+		//Set<String >set=new LinkedHashSet<>(); // childs of set
+		Set<String >s=new  HashSet<>(); // childs of set
+	s.add("papapya");
+	s.add("orenage");
+	s.add("papapya");// duplication value not accept
+	s.add(null);
+	s.add("mangoo");
+			 
+	
+	s.add(null);// duplication value not accept
+	s.add("watermelon");
+	s.add("jamun");
+	System.out.println(s);
+	
+Object x[]=
+}
+}
+// one thing this set will desnt as index or any pattern so it eill gieev o/p diffreemt
+//o/p [papapya, orenage, null, mangoo, watermelon, jamun]

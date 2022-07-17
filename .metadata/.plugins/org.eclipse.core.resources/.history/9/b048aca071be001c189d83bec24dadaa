@@ -1,0 +1,15 @@
+
+public class Stu {
+
+	
+	
+	public static void main(String[] args) {
+		Object e[]= {"rrrr","ttttt","yyyy","eeee"};
+		
+		
+		
+		for (int i=0;i<e.length;i++) {
+			System.out.println(e[i]);
+		}
+	}
+}

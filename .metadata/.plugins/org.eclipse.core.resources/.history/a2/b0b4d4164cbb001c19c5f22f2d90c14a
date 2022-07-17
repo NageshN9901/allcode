@@ -1,0 +1,10 @@
+
+public class MethodoverrideCar {
+	String model,color;
+ void Speeddetils() {
+	 System.out.println("60-120 kmph");
+}
+ 
+	
+}
+

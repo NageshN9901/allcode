@@ -1,0 +1,7 @@
+
+public class IncorrectPinException extends RuntimeException{
+  // why extening runtime Exception meansd thats is parent for chwcked exception 
+}
+  class InsuffcientException extends RuntimeException{
+	  
+  }

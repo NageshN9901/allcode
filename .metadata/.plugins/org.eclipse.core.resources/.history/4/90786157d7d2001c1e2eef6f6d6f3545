@@ -1,0 +1,8 @@
+
+public class MethodInsideMethod1 {
+
+	public void method() {
+		
+	System.out.println("inside method");
+	}
+}

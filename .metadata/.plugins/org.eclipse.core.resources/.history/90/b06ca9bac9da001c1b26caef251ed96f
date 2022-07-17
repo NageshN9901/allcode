@@ -1,0 +1,18 @@
+
+public class a {
+private void m() {
+	System.out.println("hi");
+}
+}
+ class b extends a{
+void m() {
+	System.out.println("huh");
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+
+public static void main(String[] args) {
+	
+}
+
+}
+                                                                                                            

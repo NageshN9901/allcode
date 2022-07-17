@@ -1,0 +1,9 @@
+
+public class statickBlockWithoutObject {
+  static
+  {
+	  
+	  
+	  System.out.println("bye bye");
+  }
+}

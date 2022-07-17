@@ -1,0 +1,34 @@
+
+public class NonprimativearrayMobile {
+
+
+	
+	String name;
+	String color;
+	int price;
+	
+	
+	
+	
+	NonprimativearrayMobile(String n,String c, int p)
+	{
+	this.name=n;  this.price=p; this.color=c; 
+	}
+	  public static void main(String[] args) {
+		  NonprimativearrayMobile m1=new NonprimativearrayMobile("nagesh","whitee",11111);
+		  
+		  NonprimativearrayMobile m2=new NonprimativearrayMobile("mahes","red",22222);
+		  
+		  NonprimativearrayMobile m3=new NonprimativearrayMobile("rakes","block",33333);
+		  NonprimativearrayMobile m4=new NonprimativearrayMobile("rakes","block",33333);
+		  
+		  
+		  NonprimativearrayMobile m[]= {m1,m2}; // becuse only 2 first objects detiles   Array
+		  
+		  
+		  
+	}
+	
+	
+	
+}

@@ -1,0 +1,8 @@
+
+public class FanIMPL implements Iswtich,Iregulator {
+
+	
+	public void increasespeed() {
+		System.out.println("fan speed increase");
+	}
+}

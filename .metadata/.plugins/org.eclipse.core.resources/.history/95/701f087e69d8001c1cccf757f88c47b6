@@ -1,0 +1,11 @@
+
+public class HashcodeMethod {
+	
+	int d;
+	int salary;
+	String name;
+	public static void main(String[] args) {
+		HashcodeMethod v=new HashcodeMethod();
+	}
+
+}

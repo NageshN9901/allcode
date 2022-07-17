@@ -1,0 +1,33 @@
+
+public class InherVeg {
+
+	
+	
+	
+	
+	double quantity;
+	int price;
+	
+	
+	
+	void wash()
+	{
+		
+	System.out.println("washing");	
+		
+	}
+	
+	
+	void chap()
+	{
+		
+		
+		
+		System.out.println("chaping");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

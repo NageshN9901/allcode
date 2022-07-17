@@ -1,0 +1,33 @@
+
+public class MethodreturnNonVendingMachine {
+	class coffee{}
+	class tea{}
+	
+	
+	
+	
+	coffee button1()
+	{
+		coffee c=new coffee();
+		return c;
+	}
+
+	
+	
+	tea button2()
+	{
+		tea t=new tea();
+		return t;
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		MethodreturnNonVendingMachine m=new MethodreturnNonVendingMachine ();
+		coffee x= m.button1();
+		System.out.println(x);
+		tea y=m.button2();
+		System.out.println(y);
+	
+	}
+}

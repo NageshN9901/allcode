@@ -1,0 +1,21 @@
+
+	
+public class CarHetro {
+		String brand;
+		int preice ;
+		  //constructer
+		
+		public CarHetro(String brand, int preice) {
+			super();
+			this.brand = brand;
+			this.preice = preice;
+		}
+
+		@Override
+		public String toString() {
+			return "CarHetro [brand=" + brand + ", preice=" + preice + "]";
+		}
+		
+		// to string methos
+		
+}

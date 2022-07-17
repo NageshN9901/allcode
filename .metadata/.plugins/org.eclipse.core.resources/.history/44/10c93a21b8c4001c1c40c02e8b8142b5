@@ -1,0 +1,14 @@
+
+public class Father1 extends Son1 {
+public void display(Son1 S)
+{
+	
+	System.out.println("Father f");
+}
+
+public static void main(String[] args) {
+	Son1 s=new Father1();
+	Father f1=new Father();
+	s=display((Son1)f1);
+}
+}

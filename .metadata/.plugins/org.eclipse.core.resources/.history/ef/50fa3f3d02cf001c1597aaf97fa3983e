@@ -1,0 +1,30 @@
+
+
+	import java.util.Scanner;
+	public class WhilelopPrimeevenCount {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter integer value");
+		int n=sc.nextInt();
+		int evensum=0;
+	int 	oddsum=0;
+	int 	start=1;
+	while(start<=n)// if entring number is less rthan 1 it eill not enter inside
+	{
+		
+		if(start%2==0)
+		{
+			evensum=evensum+start;
+			
+		}
+		else {
+			oddsum=oddsum+start;
+		}
+		start++;
+	}
+	System.out.println(evensum);
+	System.out.println(oddsum);
+	System.out.println(1%2);
+		
+}
+}

@@ -1,0 +1,13 @@
+import java.io.FileReader;
+import java.nio.file.FileSystemNotFoundException;
+
+public class ThrowsIndcating {
+
+public static void main(String[] args) throws ArithmeticException,FileSystemNotFoundException
+{
+	System.out.println("some code sratsr");
+	System.out.println(100/0);
+	FileReader f=new FileReader("demo .text");
+	System.out.println("some code end");
+}
+}

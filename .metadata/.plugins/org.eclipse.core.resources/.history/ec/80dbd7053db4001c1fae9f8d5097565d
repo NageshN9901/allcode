@@ -1,0 +1,15 @@
+
+public class Methodchain {
+	void display1()
+	{
+		System.out.println("display1");
+		
+		
+	}
+
+	public static void main(String[] args) {
+		Methodchain  t1=new Methodchain ();
+		t1.display();
+	}
+
+}

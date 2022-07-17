@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class ArmStrong {
+public static void main(String[] args) {
+	 int rem=0, cube=0;  
+	
+	 System.out.println("enter number");
+	 Scanner sc=new Scanner(System.in);
+	 int user=sc.nextInt();
+	int new=user;
+	
+	 while(user>0)
+	 {
+		 // we need to know how many nubers are there so use %10 like remineder
+		 rem=user%10;
+		 // we need cube the each digit
+		cube=(rem*rem*rem);
+		//we need to elmante last alst digit one by one
+		user=user/10;
+		
+		 
+	 }
+			if(user==cube)
+	 
+}
+}

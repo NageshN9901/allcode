@@ -1,0 +1,14 @@
+
+public class Practise {
+
+	{
+		
+		System.out.println("block");
+	}
+	
+	Practise(){
+		
+		System.out.println("constructer);
+	}
+
+}

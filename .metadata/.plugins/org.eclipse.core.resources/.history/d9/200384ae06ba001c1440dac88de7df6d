@@ -1,0 +1,15 @@
+
+public class InherTest {
+
+	public static void main(String[] args) {
+	
+chilly ch=new chilly();
+ch.quantity=1.5;
+ch.price=22.5;
+ch.wash();
+ch.chap();
+
+		
+	}
+
+}

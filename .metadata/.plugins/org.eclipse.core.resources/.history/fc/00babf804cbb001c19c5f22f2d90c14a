@@ -1,0 +1,10 @@
+
+public class MethodoverrideFartuner {
+	
+	void speeddetails()
+	{
+		
+		System.out.println("180 kmph");
+	}
+
+}

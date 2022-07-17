@@ -1,0 +1,25 @@
+
+import java.util.Scanner;
+//int actualpin=1234;
+//int balnce =50000;
+//	
+public class Atm{
+
+	public static void main(String[] args) {
+		   
+		int actualpin=1234;
+		int balnce =50000;
+		
+		
+		
+		Scanner sc=new Scanner(System.in);
+	int userin= sc.nextInt();
+	
+	if(actualpin==userin)
+	{
+		System.out.println("Enter Amount to Withdraw");
+		
+	}
+	}
+}
+		

@@ -1,0 +1,36 @@
+
+public class VendingMachines {
+	
+	Object order()
+	
+	{
+		int input =2;
+		if(input==1)
+			
+		{
+			
+			Coffee c=new Coffee();
+			return c;
+
+		}
+		
+		else {
+			Tea x=new Tea();
+			return x;
+		}
+	}
+	
+	
+	public static void main(String[] args) {
+		VendingMachines v=new VendingMachines();
+		Object z=v.order(); //upcastiung
+		//Object z=new Tea();
+		System.out.println(z);
+		Tea t1=(Tea)z;//downmcasting
+		t1.teadetils();
+		
+	}
+	
+	
+	
+}

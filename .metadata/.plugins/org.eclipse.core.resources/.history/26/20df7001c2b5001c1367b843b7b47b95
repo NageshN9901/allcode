@@ -1,0 +1,20 @@
+
+public class MethodReturnvar {
+	
+	int dis()
+	{
+		
+		
+		System.out.println("Returing value");
+		int x=10;
+		return x;
+	}
+
+	public static void main(String[] args) {
+		MethodReturnvar m1=new MethodReturnvar();
+		int z=m1.dis();
+		System.out.println(z);
+
+	}
+
+}

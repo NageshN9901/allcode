@@ -1,0 +1,13 @@
+import java.util.LinkedList;
+// linked list is subclass of list it is clASS we can create object
+public class Linkedlist {
+public static void main(String[] args) {
+	LinkedList<String> l=new LinkedList<>();
+	l.add("indi");
+	l.add("bndi");
+	l.add("cndi");
+	l.add("dndi");
+	l.add("ssfndi");
+	System.out.println(l);//[indi, bndi, cndi, dndi, ssfndi]
+}
+}

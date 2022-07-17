@@ -1,0 +1,13 @@
+package MATP;
+import java.util.*;
+public class readdisply {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter the order of matrix(row*col)");
+	
+	int row =sc.nextInt();
+	int col=sc.nextInt();
+	int mat[][]=new int [row][col];
+	
+}
+}

@@ -1,0 +1,39 @@
+
+public class NonprimativearrayEmployee { 
+	String name;  // proprties
+	int sal;
+	
+	NonprimativearrayEmployee(String n,int s)
+	{
+		
+		this.name=n;  //intialztion
+		this.sal=s;
+	}
+
+	void detils()   //method
+	{
+		
+		
+		System.out.println(this.name+"  "+this.sal);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

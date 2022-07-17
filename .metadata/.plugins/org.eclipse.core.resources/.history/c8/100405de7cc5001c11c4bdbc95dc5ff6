@@ -1,0 +1,19 @@
+
+public class Test {
+static void ass() {
+	
+}
+
+
+static void add(int x)
+{
+	
+	
+}
+
+
+static void add(String a)
+{
+	
+}
+}

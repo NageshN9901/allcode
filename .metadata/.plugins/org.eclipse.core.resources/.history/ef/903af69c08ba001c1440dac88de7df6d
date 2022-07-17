@@ -1,0 +1,18 @@
+
+public class MethodOverDaughter extends MethodoverFather {
+	
+	
+	
+	//extend means taking  acquaring that class poroprtyes
+	void drinking()
+	{
+		
+		System.out.println("Horilicks");
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

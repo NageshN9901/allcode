@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class ChcekARm {
+	public static void main(String[] args) {
+		
+	Scanner sc=new Scanner(System.in);
+static String ChcekARmstrinhg(int n)
+{
+int temp=n,sum=0;
+int dc=n+"".length();
+do {
+	
+	
+	int r=n%10;
+	sum=sum+(int)Math.pow(r, dc);
+	n=n/10;
+}while(n!=0);
+if(sum==temp)
+	return  "yes";
+else
+	return   "no";
+}
+}
+
+}

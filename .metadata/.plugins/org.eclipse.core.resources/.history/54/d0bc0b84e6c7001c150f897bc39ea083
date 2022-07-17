@@ -1,0 +1,6 @@
+
+
+public interface Iswtich {
+ void switchon();// abstarct and public
+ abstract void switchoff();// abstarct and public
+}

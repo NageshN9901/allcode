@@ -1,0 +1,28 @@
+
+public class Coffee {
+
+	
+	
+	String name="espresso";
+	void coffeedetils()
+	{
+		
+		System.out.println("costs ---->000");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

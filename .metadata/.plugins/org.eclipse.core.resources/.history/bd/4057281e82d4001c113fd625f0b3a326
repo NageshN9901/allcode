@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+
+public class nTHdigit {
+		public static void main(String[] args) {
+			
+
+			Scanner sc=new Scanner(System.in);
+			int n=sc.nextInt();
+			int st=nth( 1,5,8);
+			System.out.println( st+" armstrong number");
+		}
+		
+		
+		
+		static int nth(int a,int b ,int c)
+		{
+			
+			int d=b-a;
+			int v=b;
+			while(c>3)
+			{
+				
+			v=v+d;
+			c--;}
+			return v;
+			}
+		
+}

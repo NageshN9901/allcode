@@ -1,0 +1,35 @@
+
+public class FanIMPL0 implements Iswtich0,Iregulator0, Inff20,Inf0 {
+
+	//here inf also inculded
+	@Override
+	public void increasespeed() {
+		System.out.println("fan speed increase");
+	}
+	
+	@Override
+	public void reducespeed() {
+		
+		System.out.println("fan speed reduce");
+	}
+	
+	@Override
+	public void switchon() {
+		System.out.println("fan swtich on");
+		
+	}
+	@Override
+	public void switchoff() {
+		System.out.println("fan swtich on");
+		
+	}
+
+	
+	public void repir() {
+
+System.out.println("hi all");
+		
+	}
+
+	//4 by class implementing all interface by ,
+}

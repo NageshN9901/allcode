@@ -1,0 +1,19 @@
+
+public class Father {
+
+	
+	
+	Father()
+	{
+		//super(); it is invisble implocity consytruet
+		System.out.println("parent -constreucter");
+	}
+	
+
+
+
+		
+		
+
+}
+

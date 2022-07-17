@@ -1,0 +1,19 @@
+
+public class multipleExceptionHnadleing {
+public static void main(String[] args) {
+	System.out.println("stsrt");
+	try
+	{
+		
+		int x[]= {};
+		System.out.println(x[3]);
+		System.out.println(100/0);
+	}
+	
+	catch()
+	
+	
+	
+	
+}
+}

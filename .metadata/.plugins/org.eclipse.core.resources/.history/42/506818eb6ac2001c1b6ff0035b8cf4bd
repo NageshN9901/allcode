@@ -1,0 +1,19 @@
+
+public class Withparameter1  extends Withparameter {
+	
+	
+	
+	
+	
+	
+	 Withparameter1 ()
+	{
+		
+		
+		System.out.println("Withparameter ");
+	}
+	public static void main(String[] args) {
+		Withparameter w=new Withparameter();
+	}
+
+}

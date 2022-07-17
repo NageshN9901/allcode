@@ -1,0 +1,7 @@
+
+public class Aclass  implements Solution{
+public void Hello() {
+	
+	System.out.println("hello word howe are you");
+}
+}

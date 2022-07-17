@@ -1,0 +1,11 @@
+
+public class ArraylistStoreSameObjectEmplyee {
+String name;
+int  salary;
+//public ArraylistStoreSameObjectEmplyee(String name, int salary) {
+//	super();
+//	this.name = name;
+//	this.salary = salary;
+}
+
+}

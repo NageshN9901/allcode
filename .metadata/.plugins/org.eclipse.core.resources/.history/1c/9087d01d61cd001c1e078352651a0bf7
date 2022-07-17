@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class FinallyblockWithMatchingException {
+
+	
+	
+	public static void main(String[] args) {
+	System.out.println("satart");
+	Scanner sc=new Scanner(System.in);
+	
+		
+		
+		System.out.println("try block");
+		System.out.println(100/0);
+	
+	}
+}
+
+
+//satart
+//try block
+//catch-blcok
+//finally block
+//end

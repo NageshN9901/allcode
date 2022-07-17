@@ -1,0 +1,8 @@
+
+public class Father1 extends Son1 {
+public void display(Son1 S)
+{
+	
+	System.out.println("SON");
+}
+}

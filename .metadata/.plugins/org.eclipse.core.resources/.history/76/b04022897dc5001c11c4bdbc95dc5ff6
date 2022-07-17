@@ -1,0 +1,26 @@
+
+public class Test {
+static void add() {
+	
+}
+
+
+static void add(int x)
+{
+	
+	
+}
+
+
+static void add(String a)
+{
+	
+}
+
+
+public static void main(String[] args) {
+	add(10);//dependen on argumatns and parameter
+	add();
+	add("x");
+}
+}

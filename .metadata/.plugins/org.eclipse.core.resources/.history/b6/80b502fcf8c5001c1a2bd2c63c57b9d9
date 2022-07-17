@@ -1,0 +1,10 @@
+
+public class Father  extends Son{
+
+	
+	void add() {
+		
+		
+		System.out.println("hi");
+	}
+}

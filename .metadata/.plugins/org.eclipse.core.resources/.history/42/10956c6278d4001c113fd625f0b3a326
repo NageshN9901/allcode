@@ -1,0 +1,8 @@
+
+public class ChcekARm {
+static String ChcekARmstrinhg(int n)
+{
+int temp=n,sum=0;
+int dc=n+"".length();
+}
+}

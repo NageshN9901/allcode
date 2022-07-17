@@ -1,0 +1,18 @@
+
+public class Sonn extends Fatherr {
+
+	
+	
+	Sonn()
+	
+	{
+	super(10,"x")	;
+		System.out.println("Son");
+		
+		
+	}
+		
+	public static void main(String args []) 	{
+		Sonn s1=new Sonn();
+	}
+}

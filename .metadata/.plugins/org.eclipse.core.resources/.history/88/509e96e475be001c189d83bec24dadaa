@@ -1,0 +1,17 @@
+
+public class Stu {
+
+	
+	
+	public static void main(String[] args) {
+		
+		String R[]=new String[7];
+		       Stu[0]="qonda";
+				Stu[1]="wonda";
+				Stu[2]="eonda";
+		        Stu[3]="ronda";
+				Stu[4]="tonda";
+				Stu[5]="yonda";
+				Stu[6]="uganada";
+}
+}

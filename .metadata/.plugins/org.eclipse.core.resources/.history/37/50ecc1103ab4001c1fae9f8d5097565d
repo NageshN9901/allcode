@@ -1,0 +1,38 @@
+
+public class Bike1 {
+	
+	
+	String name;
+	 String color;
+	 int price;
+	 int tax;
+	 
+
+	 Bike1(String n,String c, int p,int t)
+	 {
+		this.name=n;
+		this.color=c;
+		this.price=p;
+		this.tax=t;	 	 
+	 }
+	 
+	 void display()
+	 {
+		 System.out.println("name;"+this.name);
+		 System.out.println("color;"+this.name);
+		 System.out.println("sellingprice;"(this.price+this.tax));
+		 	 
+	 }
+	 
+
+	 public static void main(String[] args) {
+		Bike1 b1=new Bike1("yeppi","redyellow",6778,687);
+		Bike1 b2=new Bike1("jaga","redyellow",6778,687);
+
+                   b1.display();
+                   System.out.println();
+                   b2.display();
+
+	}
+
+}

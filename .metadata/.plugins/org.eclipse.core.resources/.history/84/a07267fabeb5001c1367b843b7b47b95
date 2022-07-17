@@ -1,0 +1,38 @@
+
+public class Student33 {
+	
+	String firstname(String f)
+	{
+		String fn=f;
+		return fn;
+			
+	}
+	String lastname(String l)
+	{
+		String ln=l;
+	  return ln;	
+		
+	}
+	
+	void myname(String full)
+	
+	{
+		String fullname=fn+ln;
+				
+		System.out.println("full name");
+		s.myname("nagesh"+"n";)
+	}
+
+	public static void main(String[] args) {
+		
+		
+	Student33 s=new Student33();
+
+	
+
+		
+
+
+	}
+
+}

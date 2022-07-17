@@ -1,0 +1,27 @@
+//import java.util.HashSet;
+//import java.util.LinkedHashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class SetC {
+
+	
+	public static void main(String[] args) {
+		//Set<String >set=new HashSet<>(); // childs of set
+		//Set<String >set=new LinkedHashSet<>(); // childs of set
+		Set<String >set=new  TreeSet<>(); // childs of set
+	set.add("papapya");
+	set.add("orenage");
+	set.add("papapya");
+
+	set.add("mangoo");
+			 
+	
+	
+	set.add("watermelon");
+	set.add("jamun");
+	System.out.println(set);
+	
+
+}
+}

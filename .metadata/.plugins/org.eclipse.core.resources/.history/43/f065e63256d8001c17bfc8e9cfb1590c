@@ -1,0 +1,7 @@
+
+public class DefalutValues {
+int a;
+public static void main(String[] args) {
+	DefalutValues d=new DefalutValues();
+}
+}

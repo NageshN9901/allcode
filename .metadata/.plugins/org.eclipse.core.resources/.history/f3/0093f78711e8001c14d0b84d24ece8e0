@@ -1,0 +1,37 @@
+package MATP;
+import java.util.*;
+public class readdisply {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter the order of matrix(row*col)");
+	
+	int row =sc.nextInt();
+	int col=sc.nextInt();
+	int mat[][]=new int [row][col];
+
+	System.out.println("enter "+row*col+"values");
+	for(int i=0; i<mat.length; i++)////  0
+	{
+		
+		
+		for(int j=0; j<mat[i].length;j++)
+{
+	mat[i][j]=sc.nextInt();
+	
+}
+	}
+	System.out.println("usre enterd array mayrix");
+	for(int i=0; i<mat.length; i++)
+	{
+		
+		for (int j=0; j<mat[i].length; j++)
+		{
+			
+			System.out.print(mat[i][j]+" ");
+		}
+			System.out.println();	
+				
+	}
+	
+}
+}

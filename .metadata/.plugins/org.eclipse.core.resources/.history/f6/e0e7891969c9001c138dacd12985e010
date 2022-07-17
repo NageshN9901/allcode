@@ -1,0 +1,4 @@
+
+public class Fa implements Is,Ir{
+
+}

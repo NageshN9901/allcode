@@ -1,0 +1,24 @@
+
+public class Car {
+
+	Car(){
+		
+		
+		
+		this(55);
+		System.out.println(100);
+	}
+	
+	Car(int x)
+	this("100",40);
+	System.out.println(x);
+}
+	
+	Car(String y){
+		
+		super();
+		System.out.println(567);
+	
+	
+	
+}

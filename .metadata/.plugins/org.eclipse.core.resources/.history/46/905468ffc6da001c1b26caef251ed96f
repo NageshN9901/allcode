@@ -1,0 +1,15 @@
+
+public class a {
+static void m() {
+	System.out.println("hi");
+}
+}
+ class b {
+static void m() {
+	System.out.println("hi");
+}
+public static void main(String[] args) {
+ b v=new b();
+ v.m();
+}
+}

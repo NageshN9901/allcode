@@ -1,0 +1,14 @@
+
+public class NonprimativearrayCar {
+	
+	
+	public static void main(String[] args) {
+		
+		
+		
+		
+		String NonprimativearrayCar []=new  String[5];
+		
+	}
+
+}

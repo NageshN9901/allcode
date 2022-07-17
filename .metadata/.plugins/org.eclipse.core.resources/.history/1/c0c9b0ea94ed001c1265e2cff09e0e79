@@ -1,0 +1,12 @@
+package basic20;
+
+public class RECTANGLUARTWO {
+	
+	// read the RECTANGLUAR raduis print area and permeter
+	import java.util.Scanner;
+	public class circleone {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the radis");
+		double r=sc.nextInt();
+}

@@ -1,0 +1,8 @@
+
+public class CpuIMPL implements iMOUSE{
+
+	public void Click() {
+		
+		System.out.println("aooa/are get selected");
+	}
+}

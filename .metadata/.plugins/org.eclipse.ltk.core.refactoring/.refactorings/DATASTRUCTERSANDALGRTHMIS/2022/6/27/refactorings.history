@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DATASTRUCTERSANDALGRTHMIS/src/A&apos; to &apos;stackRelted&apos;" description="Rename resource &apos;A&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/A" name="stackRelted" stamp="1656258017668" updateReferences="true"/>
+</session>

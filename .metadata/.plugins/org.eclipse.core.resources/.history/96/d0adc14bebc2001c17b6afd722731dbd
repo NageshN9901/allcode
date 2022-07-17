@@ -1,0 +1,25 @@
+
+public class Test {
+
+	
+	int price;
+}
+
+
+
+
+
+
+
+
+class Pen  {
+	
+	
+	int money;
+	public static void main(String[] args) {
+		Test t=new Test ();
+		System.out.println(t.price);
+		Pen p=new Pen();
+		System.out.println(p.price);
+	}
+}

@@ -1,0 +1,24 @@
+
+public class Methodadvacncechain {
+	
+	String name;
+	String color;
+	int price;
+	int tax;
+	
+	
+	
+	
+	
+	void sellingprice()
+	{
+		int sp=this.price+this.tax;
+		System.out.println("sellingprice; "+sp);
+	}
+
+	public static void main(String[] args) {
+	
+
+	}
+
+}

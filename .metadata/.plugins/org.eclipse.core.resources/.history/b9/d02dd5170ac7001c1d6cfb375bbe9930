@@ -1,0 +1,9 @@
+
+public interface IMouse {
+	
+	// automaatcally public and abstarct 
+	
+	void Click();
+	void doubleClick();
+	void rightClick();
+}

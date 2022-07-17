@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class MethodsOfCollction {
+
+
+public static void main(String[] args) {
+	
+	
+	
+	Collection<String> rcbcol=new ArrayList<String>();
+	
+	rcbcol.add("kohli");  //using add collction method to add method used to used add specfic element into a set of collction
+		rcbcol.add("maxwell");
+			rcbcol.add("dinsh")	;
+			
+			Collection<String> micol=new ArrayList<String>();
+			micol.add("rohith sharama");
+			micol.add("ishan kishan");
+			micol.add("boomraha");
+			
+			
+}
+}

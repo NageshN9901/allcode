@@ -1,0 +1,10 @@
+
+public class NonprimativearrayBike {
+	//proprtiues
+	String name;
+	int price;
+	
+	
+	//using constructer
+
+}

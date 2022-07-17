@@ -1,0 +1,11 @@
+
+public class Daughter extends Father1 {
+
+	
+	@Override
+	void drink()
+	{
+		
+		
+	}
+}

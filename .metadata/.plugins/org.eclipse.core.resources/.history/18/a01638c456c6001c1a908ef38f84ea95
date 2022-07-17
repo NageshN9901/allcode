@@ -1,0 +1,10 @@
+
+
+	import java.util.Scanner;
+	public class Samllest {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter first value");
+		int a=sc.nextInt();
+		
+}

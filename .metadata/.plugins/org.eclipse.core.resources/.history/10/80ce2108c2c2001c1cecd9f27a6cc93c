@@ -1,0 +1,43 @@
+
+public class Car {
+
+	Car(){
+		
+		
+		
+		this(55);  
+		System.out.println(600);
+	}
+	
+	Car(int x){
+	this("100",40); // 40  return by string super calling parent with zero parmetyer  so here 2 are thgere but parerameter is int 
+	System.out.println(x);
+}
+	
+	Car(String y){
+		
+		super();
+		System.out.println(567);} //  567 sfirst falowwed by string and int
+	
+		
+		Car(int x,String y){
+		this();
+		System.out.println(x);
+	}
+	
+	
+	Car( String a,int b)
+	{
+		
+		this("95");
+		
+		
+		System.out.println(b);
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		Car c=new Car(10,"15");
+	}
+}

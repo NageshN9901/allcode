@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Second {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("enter number lines number");
+	int n=sc.nextInt();
+	
+	// outer loop for row
+	for (int i=1; i<=n; i++) {
+		
+		// inner llop for column
+		for (int i)
+	}
+}
+}

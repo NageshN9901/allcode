@@ -1,0 +1,7 @@
+
+public interface Is {
+
+	
+	void swon();
+	void swof();
+}

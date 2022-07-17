@@ -1,0 +1,19 @@
+
+public class NonprimativearrayMobile {
+
+
+	
+	String name;
+	String color;
+	int price;
+	
+	
+	
+	
+	NonprimativearrayBike(String n,String c, int p)
+	{
+		
+	this.name=n;
+	this.color;, this.price;
+	}
+}

@@ -1,0 +1,8 @@
+
+public interface Iregulator0 {
+
+	
+	void increasespeed();
+	void reducespeed();
+}
+//2 inteface

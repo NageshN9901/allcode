@@ -1,0 +1,12 @@
+
+public class Father {
+static void drinking() {
+	
+	System.out.println("coffeeee");
+}
+
+public static void main(String[] args) {
+	
+}
+}
+.

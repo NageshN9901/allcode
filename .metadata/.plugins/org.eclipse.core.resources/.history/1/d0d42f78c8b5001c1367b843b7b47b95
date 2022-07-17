@@ -1,0 +1,10 @@
+
+public class Methodreturnexprssion {
+
+	
+	int dis(int a,int b)
+	{
+		
+		System.out.println("returing exprexssion");
+	}
+}

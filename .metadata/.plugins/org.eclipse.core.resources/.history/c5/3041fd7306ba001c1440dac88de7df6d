@@ -1,0 +1,13 @@
+
+public class Inhercarrot extends InherVeg {
+	
+	//subclass//child class
+	void prepreHalwa() {
+		
+		System.out.println(" Hot gee palava halawa");
+		
+	}
+	
+
+
+}

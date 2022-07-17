@@ -1,0 +1,13 @@
+
+public interface iMOUSE {
+
+
+	
+	// automaatcally public and abstarct 
+	
+	 void Click();
+	 void doubleClick();
+	void rightClick();  // we can make here only public 
+}
+
+// 1

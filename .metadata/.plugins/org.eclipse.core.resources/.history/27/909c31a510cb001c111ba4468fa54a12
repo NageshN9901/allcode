@@ -1,0 +1,23 @@
+
+public class Test3 {
+public static void main(String[] args) {
+		
+		
+		System.out.println("start");
+		
+		try {
+			System.out.println("try block");  
+		}
+		
+		
+		catch(ArithmeticException a)  
+		{
+			System.out.println("this is catch block");
+					
+		}
+	
+	System.out.println("End");
+			
+	}
+}
+}

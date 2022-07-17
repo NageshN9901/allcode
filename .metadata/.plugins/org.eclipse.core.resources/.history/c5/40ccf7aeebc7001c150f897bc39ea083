@@ -1,0 +1,8 @@
+
+public class Consumar11 {
+
+	
+	public static void main(String[] args) {
+		Inf r=new FanIMPL();
+	}
+}

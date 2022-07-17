@@ -1,0 +1,34 @@
+
+public class Methodreturnper {
+	
+	
+int girls(int p,int c,int m)
+{
+	int sum=p+c+m;
+	return sum;/// girls group doing sum and returning to boys as output as input
+}
+
+
+
+
+void boys(int sum)
+{
+	double perc=sum/300*100;
+	System.out.println(perc);
+}
+	
+	
+	public static void main(String[] args) {
+		Methodreturnper  m=new Methodreturnper();
+	int x=m.girls(98,70,70);
+	m.boys(x);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}

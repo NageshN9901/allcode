@@ -1,0 +1,16 @@
+package org.jspider.fetchApp;
+
+public class iddemo {
+	public static void main(String[] args) {
+		
+		
+		
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			System.out.println("driver class lodede and regster");
+		} catch (ClassNotFoundException e) {
+			
+			e.printStackTrace();
+		}
+	}
+}

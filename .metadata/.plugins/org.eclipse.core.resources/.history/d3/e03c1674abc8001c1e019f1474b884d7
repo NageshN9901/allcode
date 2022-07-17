@@ -1,0 +1,12 @@
+
+public class Consmar {
+
+	
+	public static void main(String[] args) {
+		iMOUSE M=new  CpuIMPL ();
+		M.Click();
+		M.doubleClick();
+		M.rightClick();
+	}
+}
+ // 3 

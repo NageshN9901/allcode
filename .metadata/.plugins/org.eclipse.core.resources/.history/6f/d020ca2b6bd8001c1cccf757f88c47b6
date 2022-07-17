@@ -1,0 +1,25 @@
+
+
+public class OverrideHashcode {
+	
+	int d;
+	int salary;
+	String name;
+	
+	
+	
+	public int hashcode() {
+		
+		
+		return this.d;// asssigninf our own value to objecvt address
+	}
+	public static void main(String[] args) {
+		HashcodeMethod v=new HashcodeMethod();
+		v.d=44;   v.name="nag";   v.salary=77778787;// varible intliztion through object reffrence
+		System.out.println(v);//HashcodeMethod@15db9742
+		System.out.println(v.hashCode());//366712642   it assigned by dev as unque id
+	}
+
+}
+
+

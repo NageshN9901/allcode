@@ -1,0 +1,32 @@
+import java .util.*;
+public class ListIterter {
+// listItertor is sub Interface of  List iInterfaces so we cant creat object>>..1
+	public static void main(String[] args) {
+		//List<String> p=new ArrayList<String>();//>>..1// parent  stronig the data into arryalist// upcasting
+		//List<String> p=new LinkedList<String>();//>>..1// parent  stronig the data into arryalist// upcasting
+		//work fine becuse fallows hirrcy//List<String> p=new Vector<String>();//>>..1// parent  stronig the data into arryalist// upcasting
+		//List<String> p=new Stack<String>();//>>..1// parent  stronig the data into arryalist// upcasting
+		Set<String> p=new LinkedHashSet<String>();// it will not work for Listinteroer
+		p.add("banglorw");
+		p.add("manali");
+		p.add("lahor");
+		p.add("pune");
+		//System.out.println(p); [banglorw, manali, lahor, pune]
+
+		// so now above data added to 
+		// now print forward dierction
+		ListIterator<String> fa=p.listIterator();// taking back from parent
+		while(fa.hasNext())// hasnext search next object or next
+		{
+			String pl=fa.next();// next move to next object or data
+			System.out.println(pl);
+		}
+		System.out.println("break");
+		ListIterator<String> ba=p.listIterator(p.size());// taking back from parent
+		while(ba.hasPrevious())//search previous object or next
+		{
+			String pp=ba.previous();// move to previous
+			System.out.println(pp);
+		}
+	}
+}

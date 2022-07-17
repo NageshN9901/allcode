@@ -1,0 +1,27 @@
+
+public class Nagesh {
+
+	
+	public static void main(String[] args) {
+	Object e[]= {"rw","ret","oooo","tytyty"};
+	System.out.println(e.length);
+	
+	
+	
+	System.out.println();
+	for(int i=0;i<e.length;i++)
+	{
+		System.out.println(e[i]);
+	}
+	
+	
+	
+	for (int i=e.length;i>=0;i--)
+			 {
+		System.out.println(e[i]);
+	}
+	}
+	
+	
+	
+}

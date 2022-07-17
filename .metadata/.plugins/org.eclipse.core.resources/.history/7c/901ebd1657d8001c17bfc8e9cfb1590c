@@ -1,0 +1,18 @@
+
+public class DefalutValues {
+static int a;
+static double b;
+long c;
+byte d;
+char h;
+
+String t;
+ 
+public static void main(String[] args) {
+	System.out.println(a); 
+	System.out.println(b);
+	DefalutValues f=new DefalutValues();
+	f.c;
+	
+}
+}

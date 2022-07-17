@@ -1,0 +1,9 @@
+
+public interface Inff2 {
+public void repir();
+public static void speed() {
+	
+	System.out.println("its run per minute");
+}
+
+}

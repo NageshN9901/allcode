@@ -1,0 +1,12 @@
+package Array;
+
+public class ArrayintospcfiedNexctarrayIndex {
+public static void main(String[] args) {
+	 ArrayintospcfiedNexctarrayIndex v=new  ArrayintospcfiedNexctarrayIndex();
+	 
+	int a[]={45,67,23,38,34,29};// specfeing 
+	 int b[]= {11,22,33};
+	 
+	a=v.insertarray(a,b,2);
+}
+}

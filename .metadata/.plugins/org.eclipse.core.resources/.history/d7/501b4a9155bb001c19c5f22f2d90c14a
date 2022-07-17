@@ -1,0 +1,13 @@
+ class MethodoverrideCar {
+	String model,color;
+final void Speeddetils() {
+	 System.out.println("60-120 kmph");
+}
+//void speeddetails() {
+//	
+//}
+
+ //parent class or super class
+	
+}
+

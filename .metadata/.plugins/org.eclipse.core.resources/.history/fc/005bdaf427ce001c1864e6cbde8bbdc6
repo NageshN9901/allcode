@@ -1,0 +1,26 @@
+
+import java.util.Scanner;
+//int actualpin=1234;
+//int balnce =50000;  // why outisde varibles  not taekn to scanner class
+//	
+public class Atm{
+
+	public static void main(String[] args) {
+		   System.out.println("some code");
+		int actualpin=1234;
+		int balnce =50000;
+		
+		
+		
+		Scanner sc=new Scanner(System.in);
+	
+	int userin= sc.nextInt();
+	System.out.println("Enter pin");
+	if(actualpin==userin)
+	{
+		System.out.println("Enter Amount to Withdraw");
+		
+	}
+	}
+}
+		

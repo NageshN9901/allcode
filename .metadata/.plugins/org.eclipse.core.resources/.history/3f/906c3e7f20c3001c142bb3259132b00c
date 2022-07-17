@@ -1,0 +1,22 @@
+
+public class test1 {
+
+int a;
+public static void main(String[] args) {
+	
+}
+}
+
+class pen1 {
+	 int a;
+	
+	public static void main(String[] args) {
+		test1 t= new test1();
+
+		System.out.println();
+		
+		pen1 p= new pen1();
+		
+		System.out.println();
+	}
+}

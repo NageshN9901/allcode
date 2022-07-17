@@ -1,0 +1,27 @@
+
+public class RunFather1 {
+
+
+
+	
+	void drink()
+
+	{
+		
+		System.out.println("cofeee");
+	}
+}
+	
+	class Son extends RunFather1{
+		
+		void drink()
+
+		{
+			
+			System.out.println("tea");
+		}
+		
+	}
+
+
+

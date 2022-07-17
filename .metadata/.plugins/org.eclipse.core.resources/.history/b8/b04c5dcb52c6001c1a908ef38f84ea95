@@ -1,0 +1,10 @@
+
+
+	import java.util.Scanner;
+	public class MainPostive {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter integer value");
+		int a=sc.nextInt();
+		
+}

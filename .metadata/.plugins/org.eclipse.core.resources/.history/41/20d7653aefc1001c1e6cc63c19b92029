@@ -1,0 +1,31 @@
+
+public class VendingMachines {
+
+	
+	
+	Object order()
+	
+	{
+		
+		int input =2;
+		if(input==1)
+			
+		{
+			
+			Coffee c=new Coffee();
+			return c;
+		
+		
+		
+		}
+		
+		else {
+			Tea x=new Tea();
+			retrun x;
+		}
+		
+		
+		
+		
+	}
+}

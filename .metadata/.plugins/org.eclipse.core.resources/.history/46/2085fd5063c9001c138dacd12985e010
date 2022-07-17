@@ -1,0 +1,37 @@
+
+interface SamplePrintablestep1 {
+
+	void print();
+}
+
+
+interface Showable{
+	void show();
+}
+class Epson implements SamplePrintablestep1,Showable{
+	@Override
+ public void print() {
+	 
+	 
+	 System.out.println("hpo printe spson s23");
+ }
+
+@Override
+public void show() {
+System.out.println("hi iam a4 a5");
+	
+}
+
+why its not working
+
+	public static void main(String[] args) {
+		Epson o= new Epson();
+		o.print();
+		o.show();
+	}
+}
+
+// we cant write main metghod ibnside uinterface
+
+
+}

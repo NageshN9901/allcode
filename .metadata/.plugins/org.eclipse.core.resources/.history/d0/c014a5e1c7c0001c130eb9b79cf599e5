@@ -1,0 +1,56 @@
+
+public class UpcastingCar {
+String name,color;
+
+
+
+UpcastingCar(String n,String t)
+{
+	this.name=n;
+	
+	this.color=t;
+}
+
+void drive()
+{
+	
+	System.out.println("Drive car");
+}
+
+
+}
+class bike{
+	String name,color;
+	bike(String n,String t)
+	{
+		this.name=n;
+		
+		this.color=t;
+	}
+
+	void ride()
+	{
+		
+		System.out.println("Drive bike");
+	}
+	
+}
+
+
+
+class Test{
+	
+	
+	
+	public static void main(String[] args) {
+		
+	
+	
+		UpcastingCar c1=new UpcastingCar("duke","orange");
+		UpcastingCar c2=new UpcastingCar("rc 2e0","white");
+		bike  b1 =new bike("nano","purplee");
+		bike  b2 =new bike("genaral motors","rounddark");
+		Object x[]= {c1,c2,b1,b2}
+
+	}
+}

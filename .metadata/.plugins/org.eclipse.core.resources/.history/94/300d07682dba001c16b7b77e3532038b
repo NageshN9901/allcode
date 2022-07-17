@@ -1,0 +1,20 @@
+
+public class   MethodoverFather {
+	
+	//super class 
+	// 1st program
+	
+	 final String car="nano";
+	 final int money=500000000;
+	
+	 final void drinking()
+	{
+		
+		
+		 System.out.println("coffe");
+		 int money;
+	}
+	
+	
+
+}

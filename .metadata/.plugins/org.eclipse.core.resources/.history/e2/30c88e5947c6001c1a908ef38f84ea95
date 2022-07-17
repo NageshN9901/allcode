@@ -1,0 +1,10 @@
+
+public class Something {
+public static void main(String[] args) {
+	
+	//Test =new Test();   we cant creat object for abstrct classs
+	Test t=new Child();
+	t.m3();
+	int e=t.m4("yes");
+}
+}

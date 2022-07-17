@@ -1,0 +1,23 @@
+
+public class Father1 {
+
+	
+	void drink()
+
+	{
+		
+		System.out.println("cofeee");
+	}
+	
+	
+	class Son extends Father1{
+		
+		void drink()
+
+		{
+			
+			System.out.println("tea");
+		}
+		
+	}
+}

@@ -1,0 +1,11 @@
+
+public class Son extends Father {
+
+	static void drinking()  //declration
+	{
+		
+		
+	}
+	
+	
+}

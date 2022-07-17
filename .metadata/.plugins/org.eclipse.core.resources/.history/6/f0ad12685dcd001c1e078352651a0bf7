@@ -1,0 +1,23 @@
+
+public class FinalyblockExceptionWithNoMatchingCatchBlock {
+public static void main(String[] args) {
+	System.out.println("ststrt");
+	Scanner sc=new Scanner(System.in);
+	try {
+		
+System.out.println(100/0);//Arthmatic Exception
+	}
+
+catch(NullpointerException y)// no matching catch exception
+	{
+	
+	System.out.println("catch blck");
+	}
+finally {
+	
+	
+	
+}
+}
+
+}

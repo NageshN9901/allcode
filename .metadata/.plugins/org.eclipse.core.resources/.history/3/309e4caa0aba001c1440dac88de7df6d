@@ -1,0 +1,24 @@
+
+public class MethodOverSon extends MethodoverFather {
+	
+	// subclass of super class 
+	//3rd program
+
+	
+	
+	void drinking()
+	{
+		
+		System.out.println("water");   // mthodoverriding means chaning method behvoir in particular classs
+		//example in super class =coffe but in subclass = water
+	}
+	
+	public static void main(String[] args) {
+
+		MethodOverSon s= new MethodOverSon();
+		System.out.println(s.car);
+		System.out.println(s.money);
+		s.drinking();
+	}
+
+}

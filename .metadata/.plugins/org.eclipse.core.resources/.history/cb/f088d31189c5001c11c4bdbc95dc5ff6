@@ -1,0 +1,14 @@
+
+
+public class Father  {
+static void drinking() {
+	
+	System.out.println("coffeeee");
+}
+
+public static void main(String[] args) {
+	daughter f=new daughter();
+	f.drinking();//because static belongs to class i
+	// in place daughetr if we replace with son also no change
+}
+}

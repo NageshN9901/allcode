@@ -1,0 +1,10 @@
+
+public interface Ir {
+
+
+		// its is not public becuse inside one intyerface is enugh to make public
+		void insp();
+		void desp();
+	}
+
+

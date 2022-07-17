@@ -1,0 +1,9 @@
+import java.util.Scanner;
+public class Countnumberofwords {
+public static void main(String[] args) {
+	System.out.println("enetr the string in sentence")
+}
+	
+	
+	
+}

@@ -1,0 +1,13 @@
+import java.util.*;
+public class PostiveNegtive {
+
+	
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		int a,b,c
+		System.out.println()"engter first number";
+				
+	}
+	
+}

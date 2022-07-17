@@ -1,0 +1,12 @@
+
+public abstract class Son {
+
+	
+	
+	abstract void add();
+
+	public static void main(String[] args) {
+		Father f=new Father();
+		f.add();
+	}
+}

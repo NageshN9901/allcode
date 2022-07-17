@@ -1,0 +1,22 @@
+
+public class Bikeb {
+
+	
+	Bikeb (int x)
+	{
+		
+		System.out.println("b");
+	}
+	
+	Bikeb (String s)
+	{
+		this();
+		
+		System.out.println("100");
+	}
+	
+	
+	public static void main(String[] args) {
+		Bikeb b=new Bikeb (10);
+	}
+}

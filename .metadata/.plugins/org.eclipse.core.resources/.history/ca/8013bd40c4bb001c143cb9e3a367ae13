@@ -1,0 +1,14 @@
+
+public class ArrayDemo {
+
+	public static void main(String[] args) {
+		String Superheros[]= {"thor","batman","superman","spiderman","Nagesh"};
+
+		
+		System.out.println(Superheros.length);// length is used find the length of data
+		
+		
+		
+	}
+
+}

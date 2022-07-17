@@ -1,0 +1,6 @@
+
+public interface SampleSolution {
+
+	void hello();
+	void welcome();
+}

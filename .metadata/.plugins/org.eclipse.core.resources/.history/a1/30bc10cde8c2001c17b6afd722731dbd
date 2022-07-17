@@ -1,0 +1,29 @@
+
+public class Sample {
+
+	
+	{
+		System.out.println("hello");
+	}
+	
+	
+	{
+		
+		System.out.println("jhdeuuh");
+	
+	}
+	
+	
+	String name;
+	int price;
+	Sample(String n,int p )
+	{
+		
+		
+		this.name=n;
+		this.price=p;
+	}
+	
+	
+	
+}

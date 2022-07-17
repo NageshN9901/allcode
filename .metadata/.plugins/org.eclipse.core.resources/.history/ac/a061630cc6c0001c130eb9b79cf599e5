@@ -1,0 +1,14 @@
+
+public class UpcastingCar {
+String name,color;
+
+
+
+UpcastingCar(String n,String color)
+
+
+{
+	this.name;
+	this.color;
+}
+}

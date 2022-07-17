@@ -1,0 +1,30 @@
+
+
+public class Sonr extends Fatherr {
+public void display(Father f )
+{
+	
+	System.out.println("Father1 f");
+}
+public void display(Sonr s)
+{
+	
+	System.out.println("Son1 s");
+}
+public static void main(String arg []) {
+	
+	//Fatherr s=new Sonr  ();
+	//Sonr g =(Sonr)s;
+//d.display(Father ); // it will tAKE SAME PARAMETRE TYPE\
+	
+	
+	Sonr s1=new Sonr();
+	s1.display(null);
+	s1.display(new Fatherr()):
+		s1.display(new Sonr));
+	
+}
+
+	
+}
+

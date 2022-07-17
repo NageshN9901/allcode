@@ -1,0 +1,9 @@
+
+public class Student {
+
+	String name;
+	static String course="dev";
+	static int Eid =12323;
+	
+	
+}

@@ -1,0 +1,25 @@
+
+public class StacObject {
+
+	
+	
+	
+ static int b;
+
+	 StacObject(int b) {
+		//super();
+		StacObject.b = b;
+	}
+	
+	static StacObject a1 = new StacObject(b);
+	
+
+	void test() {
+		System.out.println("ho iam working");
+	
+	}
+	public static void main(String[] args) {
+		
+	}
+	
+}

@@ -1,0 +1,13 @@
+
+public class DefalutValues {
+int a;
+ public void defalut()
+ {
+	 
+	 
+ }
+public static void main(String[] args) {
+	DefalutValues d=new DefalutValues();
+	d.defalut();
+}
+}

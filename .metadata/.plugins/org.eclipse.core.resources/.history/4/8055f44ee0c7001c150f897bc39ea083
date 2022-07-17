@@ -1,0 +1,4 @@
+
+public class FanIMPL implements Iswtich,Iregulator {
+
+}

@@ -1,0 +1,7 @@
+
+public class Father1 {
+static void add() {
+	
+	System.out.println("hi");
+}
+}

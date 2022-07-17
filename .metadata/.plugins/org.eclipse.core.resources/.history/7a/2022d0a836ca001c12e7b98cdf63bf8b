@@ -1,0 +1,28 @@
+
+
+
+	import java.util.Scanner;
+	public class MainPerfect {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter  number value");
+		int n=sc.nextInt();// 28
+		int sum=0;//becuse strt value
+	int	o=6;
+		System.out.println(n%o==0);
+	for (int i=1;i<n;i++)
+	{
+		
+		if (n%i==0)  // modul 
+		
+			sum=sum+i;
+	}
+	if (sum==n)///6=6 given and final after addtion
+		System.out.println(n+"perfect numvber"+sum);
+	
+	
+	else 
+		System.out.println(n+"not sis perfect number"+sum);
+	
+}
+}

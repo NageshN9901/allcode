@@ -1,0 +1,26 @@
+
+public class maggi extends InherDelivary {
+	
+	
+	void armor()
+	{
+		
+		System.out.println("the best dishes ever seeen in taste ");
+	}
+
+	public static void main(String[] args) {
+		
+
+		maggi m= new maggi();
+		m.armor();
+		m.time=17;
+		m.charge=160;
+		m.dish="veg palava";
+		System.out.println("time in  minutes ;"+" "+m.time);
+		System.out.println("mega offer  ;"+" "+m.charge);
+		System.out.println("dish ;"+" "+m.dish);
+		
+		
+	}
+
+}

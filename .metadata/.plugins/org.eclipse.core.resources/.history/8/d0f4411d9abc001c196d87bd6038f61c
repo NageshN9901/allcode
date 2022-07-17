@@ -1,0 +1,27 @@
+
+public class Bike {
+
+	
+	
+	String name,color;
+
+	public Bike(String name, String color) {
+		super();
+		this.name = name;
+		this.color = color;  // ctreate construcetr right click source creste automatied constrers	
+	}
+	
+}
+class car 
+{
+	String brand;
+	int price;
+	public car(String brand, int price) {
+		super();
+		this.brand = brand;
+		this.price = price;
+	}
+	
+	
+	
+}

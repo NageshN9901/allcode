@@ -1,0 +1,62 @@
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Set;
+
+public class MapMethodsAll {
+public static void main(String [] args) {
+	
+	// interface <key,value> ref=new subclass<key,values>();
+	Map<Integer,String> cskmap=new HashMap<Integer,String>();
+	
+	cskmap.put(7, "dhoni");// adding data into hashmap
+	cskmap.put(1 , "jadeja");// adding data into hashmap
+Map<Integer,String> rcbmap=new LinkedHashMap<Integer,String>();
+//Map<Integer,String> rcbmap=new Hashtable<Integer,String>();
+
+	
+	rcbmap.put(9, "Rohitha");// adding data into hashmap
+	rcbmap.put(5 , "jadeja");// adding data into hashmap
+	//System.out.println(cskmap);//{1=jadeja, 7=dhoni}
+	Map<Integer, String> iplmap=new HashMap<Integer,String>();
+	iplmap.putAll(cskmap);// adding one set fv data into ontheer HashMap
+	iplmap.putAll(rcbmap);// adding one set fv data into ontheer HashMap
+	System.out.println("totasl plyers size ="+iplmap.size());//totasl plyers size =4
+	System.out.println("key 7 prsent are there="+iplmap.containsValue(12));// to check values presnt in thaat conterner/key 7 prsent are there=false
+	System.out.println("key 7 prsent are there="+iplmap.containsKey(12));// to check values presnt in thaat conterner//key 7 prsent are there=false
+System.out.println("values present in "+iplmap.containsValue("Rohitha"));//true// thats value contins means it gives true
+System.out.println(iplmap.get(5));//jadeja
+System.out.println(iplmap.get(77));//null
+// remove key  any values or key 
+iplmap.remove(7);
+	
+System.out.println(iplmap);//{1=jadeja, 9=Rohitha, 5=jaggu, 7=dhoni}
+System.out.println(iplmap.size());//3
+iplmap.put(7,"gggg");//1=jadeja, 9=Rohitha, 5=jadeja, 7=gggg}
+System.out.println(iplmap);//{1=jadeja, 9=Rohitha, 5=jaggu}
+
+
+
+System.out.println(iplmap.size());//4
+// to itrate map we can do in two ways 1
+
+for (Integer mk:iplmap.keySet())// to get  keys
+{
+	System.out.println("keys"+" "+ mk);// to get values
+}
+
+
+for(String mv:iplmap.values())
+{
+	System.out.println("values"+mv);
+	
+	
+}
+
+	// by doing two times we can do one timne itterati 
+for(Map.Entry<Integer,String>entry:iplmap.entrySet())
+	System.out.println("key:"+entry.getKey()+" " +entry.getValue());
+
+
+}
+}

@@ -1,0 +1,14 @@
+import java.util.*;
+public class MesurmentConversion {
+public static void main(String[] args) {
+	
+	Scanner sc=new Scanner(System.in);
+	double centimeter,feet,meters;
+	
+	System.out.println("enter the length in centimeter");
+	centimeter=sc.nextDouble();
+}
+
+
+}
+

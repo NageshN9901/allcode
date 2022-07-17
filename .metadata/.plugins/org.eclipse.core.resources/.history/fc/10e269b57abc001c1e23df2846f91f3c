@@ -1,0 +1,54 @@
+
+public class NonprimativearrayPen {
+	String brand;
+	String color;
+	int price;
+
+	
+	
+	public static void main(String[] args) {
+		NonprimativearrayPen p1=new NonprimativearrayPen();
+		NonprimativearrayPen p2=new NonprimativearrayPen();
+		NonprimativearrayPen p3=new NonprimativearrayPen();
+p1.brand="benz";  p1.color="white"; p1.price=141414;
+p2.brand="BMW";  p2.color="blue"; p2.price=2241414;
+p3.brand="tata";  p3.color="dark"; p3.price=3141414;
+		
+
+NonprimativearrayPen p[]= {p1,p2};
+
+for (int i=1;i<p.length; i++) //forward derction
+{
+	
+	System.out.println(p2.brand+"  "+p2.color+" "+p2.price);
+	System.out.println(p3.brand+"  "+p3.color+" "+p3.price);
+	
+}
+
+  for (int i=p.length;i<=1; i--)
+  {
+		
+		System.out.println(p2.brand+"  "+p2.color+" "+p2.price);
+		System.out.println(p3.brand+"  "+p3.color+" "+p3.price);
+		
+	}
+
+
+
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

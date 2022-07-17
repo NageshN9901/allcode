@@ -1,0 +1,15 @@
+import java .util.*;
+public class ListIterter {
+// listItertor is sub Interface of  List iInterfaces so we cant creat object>>..1
+	public static void main(String[] args) {
+		List<String> p=new ArrayList<String>();//>>..1// parent  stronig the data into arryalist
+		p.add("banglorw");
+		p.add("manali");
+		p.add("lahor");
+		p.add("pune");
+		// so now above data added to 
+		// now print forward dierction
+		ListIterator<String> ba=p.listIterator();// taking back from parent
+		while()
+	}
+}

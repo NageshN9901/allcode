@@ -1,0 +1,14 @@
+
+public class Son1 {
+public void display(Son1 s)
+{
+	System.out.println("son");
+}
+public static void main(String[] args) {
+	Son1 s1=new Son1();
+	s1.display(null);//defalut value
+	s1.display(s1);//reffrnce
+	s1.display(new Son1());//oject reffrnce
+	
+}
+}

@@ -1,0 +1,16 @@
+
+public class maggi extends InherDelivary {
+	
+	
+	void armor()
+	{
+		
+		System.out.println("the best dishes ever seeen in taste ");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

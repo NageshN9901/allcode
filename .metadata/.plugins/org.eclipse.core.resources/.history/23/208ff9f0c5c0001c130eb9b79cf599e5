@@ -1,0 +1,13 @@
+
+public class UpcastingCar {
+String name,color;
+
+
+
+UpcastingCar(String n,String color)
+
+
+{
+	System.out.println(this.name;);
+}
+}

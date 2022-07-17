@@ -1,0 +1,31 @@
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.TreeMap;
+public class MapDemo {
+	public static void main(String[] args) {
+		HashMap<String,String>hm=new HashMap<String,String>();
+		
+		hm.put("dhomi","csk");
+		hm.put("jedja","csk");
+		hm.put("suresh","csk");
+		hm.put("kohli","csk");
+		hm.put("pandya","mi");
+		hm.put("ABD","RCB");
+		hm.put(null, "kkr");
+		
+		System.out.println(hm);//{ABD=RCB, dhomi=csk, jedja=csk, kohli=csk, pandya=mi, suresh=csk}
+		
+	}
+	LinkedHashMap<String,String>lm=new LinkedHashMap<String,String>();
+	
+	lm.put("dhomi","csk");
+	lm.put("jedja","csk");
+	lm.put("suresh","csk");
+	lm.put("kohli","csk");
+	lm.put("pandya","mi");
+	lm.put("ABD","RCB");
+	lm.put(null, "kkr");
+	
+	System.out.println(lm);
+
+}

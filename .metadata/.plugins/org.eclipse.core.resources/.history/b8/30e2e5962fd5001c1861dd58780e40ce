@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Primecountn {
+public static void main(String[] args) {
+	System.out.println("enerter n");
+	Scanner sc=new Scanner(System.in);
+	
+	int n=sc.nextInt();
+	
+	
+}
+}

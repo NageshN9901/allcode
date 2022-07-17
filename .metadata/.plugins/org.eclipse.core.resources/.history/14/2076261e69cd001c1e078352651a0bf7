@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class FinallyBlockWithNoExceptionInTryblcok {
+public static void main(String[] args) {
+	System.out.println("srt");
+	Scanner sc=new Scanner(System.in);
+	try {
+		System.out.println("Try blcok");
+	}
+	
+	catch(Throeable r)
+	{
+		System.out.println("catch block");
+	}
+}
+}

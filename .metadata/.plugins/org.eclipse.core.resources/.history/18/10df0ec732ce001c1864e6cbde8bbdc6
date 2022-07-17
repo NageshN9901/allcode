@@ -1,0 +1,14 @@
+
+public class BikeCloneableMarkableInterface {
+String name;
+int price;
+public static void main(String[] args) throws CloneNotSupportedException 
+{
+	BikeCloneableMarkableInterface b1=new BikeCloneableMarkableInterface();
+	b1.name="honda";
+	b1.price=23333;
+			System.out.println("orginal "+" "+b1.name+b1.price);//orginal  honda23333
+			Object x=b1.clone();
+			
+}
+}

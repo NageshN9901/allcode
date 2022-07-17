@@ -1,0 +1,25 @@
+package Strings;
+import java.util.Scanner;
+public class RevrseTheStringss {
+//    i/p    ramesh is good boy 
+	// o/p    hsemar si doog yob
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+	Scanner sc=new Scanner (System.in);
+	
+			System.out.println("enetr the string");
+	String st=sc.nextLine();// for string using input method
+	st=revrseords(st);
+
+	System.out.println(st
+	
+	
+	
+	s
+	}
+	
+}

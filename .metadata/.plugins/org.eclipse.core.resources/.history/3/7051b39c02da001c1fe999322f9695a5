@@ -1,0 +1,59 @@
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.TreeMap;
+public class MapDemo {
+	public static void main(String[] args) {
+		HashMap<String,String>hm=new HashMap<String,String>();
+		
+		hm.put("dhomi","csk");
+		hm.put("jedja","csk");
+		hm.put("suresh","csk");
+		hm.put("kohli","csk");
+		hm.put("pandya","mi");
+		hm.put("ABD","RCB");
+		hm.put(null, "kkr");
+		hm.put(null, "cc");
+		// its gives first null valueer  accept sinle null
+		System.out.println(hm);//{ABD=RCB, dhomi=csk, jedja=csk, kohli=csk, pandya=mi, suresh=csk}
+		
+		
+		
+		LinkedHashMap<String,String>lm=new LinkedHashMap<String,String>();
+		
+		lm.put("dhoni","csk");
+		lm.put("jedja","csk");
+		lm.put("suresh","csk");
+		lm.put("kohli","csk");
+		lm.put("pandya","mi");
+		lm.put("ABD","RCB");
+		lm.put(null, "kkr");
+		lm.put(null, "kkr");// only single null acceptbl there is no defalut order it will give how the dev gives same
+		
+		System.out.println(lm);
+		//{dhoni=csk, jedja=csk, suresh=csk, kohli=csk, pandya=mi, ABD=RCB, null=kkr}
+		TreeMap<String,String>tm=new TreeMap<String,String>();
+		tm.put("dhoni","csk");
+		tm.put("jedja","csk");
+		tm.put("suresh","csk");
+		tm.put("kohli","csk");
+		tm.put("pandya","mi");
+		tm.put("ABD","RCB");
+		//tm.put(null, "kkr");//NullPointerException
+
+		System.out.println(tm);// it gives ascending order but cannt accept single null
+		//ABD=RCB, dhoni=csk, jedja=csk, kohli=csk, pandya=mi, suresh=csk}
+
+		Map<String,String>ipl=new HashMap<String,String>();
+		ipl.putAll(hm);
+		ipl.putAll(lm);
+		ipl.putAll(tm);
+	  
+		
+		System.out.println(ipl);//{null=kkr, ABD=RCB, dhoni=csk, dhomi=csk, jedja=csk, kohli=csk, pandya=mi, suresh=csk}
+	for(Map.Entry<String,String>entry:ipl.entrySet());
+	
+	System.out.println(entry.getKey()+entry.getValues());
+
+//	for(Map.Entry<Integer,String>entry:iplmap.entrySet())
+//		System.out.println("key:"+entry.getKey()+" " +entry.getValue());

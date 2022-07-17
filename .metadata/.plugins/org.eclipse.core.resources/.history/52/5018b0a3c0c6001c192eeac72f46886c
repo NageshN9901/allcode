@@ -1,0 +1,13 @@
+import java.util.*;
+public class MainResul {
+
+	
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in)
+				System.out.println("enter pyscis marks");
+	}
+	
+	
+	
+	
+}

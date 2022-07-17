@@ -1,0 +1,16 @@
+
+public class IfdataAandBsame {
+	public static void main(String[] args) {
+		
+		
+		
+		int i=10;
+		int k=10;
+		
+		Integer fn=i;
+		Integer sn=k;
+		
+		System.out.println(fn.compareTo(sn));
+		
+  }
+}

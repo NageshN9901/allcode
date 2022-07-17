@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class drink {
+
+}
+class coffeee extends drink
+  {
+	
+}
+class tea  extends drink {}
+import java.util.Scanner;
+
+
+class ven{
+	public static void main(String[] args) {
+		
+	
+		drink but{
+		Object but1(){
+			Scanner sc=new Scanner(System.in);
+			
+			int n=sc.nextInt();
+			System.out.println("enter 1 for coffee");
+			if(n==1)
+				coffee c= new coffee(); 
+			return c;
+		}
+		else {
+		  tea t=new tea();
+		  return t;
+		}
+	
+	
+	
+	
+}
+	
+}
+}

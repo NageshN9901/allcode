@@ -1,0 +1,12 @@
+
+public class Brother {
+
+	
+	
+	Brother(int x)
+	{
+		
+		
+		System.out.println("Brther o1");
+	}
+}

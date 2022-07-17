@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class MainResul {
+
+	public static void main(String[] args) {
+			Scanner sc=new Scanner(System.in);
+			System.out.println("enter pysics marks");
+			double a=sc.nextDouble();
+			System.out.println("enter englis marks");
+			double b=sc.nextDouble();
+			System.out.println("enter  Maths marks");
+			double c=sc.nextDouble();
+			System.out.println("enter biology marks");
+			double d=sc.nextDouble();
+			
+			System.out.println("enter  kannada marks");
+			double e =sc.nextDouble();
+			
+			
+			
+			if(a<35||b<35||c<35||d<35||e<35)
+				System.out.println("the candate failed");
+	}
+}
+	
+

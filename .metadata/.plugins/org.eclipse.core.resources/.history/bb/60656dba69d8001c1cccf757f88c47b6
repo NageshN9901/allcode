@@ -1,0 +1,13 @@
+
+public class HashcodeMethod {
+	
+	int d;
+	int salary;
+	String name;
+	public static void main(String[] args) {
+		HashcodeMethod v=new HashcodeMethod();
+		v.d=44;   v.name="nag";   v.salary=77778787;// varible intliztion through object reffrence
+		System.out.println(v);
+	}
+
+}

@@ -1,0 +1,9 @@
+
+public class Father extends Son {
+void display(Father f)
+{
+	System.out.println("son");
+}
+	
+	
+}

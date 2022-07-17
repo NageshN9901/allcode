@@ -1,0 +1,46 @@
+
+public class NonprimativearrayEmployee { 
+	String name;  // proprties
+	int sal;
+	
+	NonprimativearrayEmployee(String n,int s)   //constreurter intailztion
+	{
+		
+		this.name=n;  //intialztion
+		this.sal=s;
+	}
+
+	void detils()   //method
+	{
+		
+		
+		System.out.println(this.name+"  "+this.sal);
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		NonprimativearrayEmployee e1=new NonprimativearrayEmployee("rahul",1000002);
+		NonprimativearrayEmployee e1=new NonprimativearrayEmployee("virat",2000002);
+		NonprimativearrayEmployee e1=new NonprimativearrayEmployee("raina",3000002);
+		NonprimativearrayEmployee e1=new NonprimativearrayEmployee("dhone",4000002);
+
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

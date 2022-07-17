@@ -1,0 +1,17 @@
+
+public class StudentHetrgenuoiss {
+String name;
+int age ;
+  //constructer
+public StudentHetrgenuoiss(String name, int age) {
+	super();
+	this.name = name;
+	this.age = age;
+}
+// to string methos
+@Override
+public String toString() {
+	return "StudentHetrgenuoiss [name=" + name + ", age=" + age + "]";
+}
+
+}

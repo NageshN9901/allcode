@@ -1,0 +1,14 @@
+ class MethodoverrideCar {
+	String model,color;
+ void Speeddetils() {
+	 System.out.println("60-120 kmph");
+}
+void speeddetails() {
+	// TODO Auto-generated method stub
+	
+}
+ 
+ //parent class or super class
+	
+}
+

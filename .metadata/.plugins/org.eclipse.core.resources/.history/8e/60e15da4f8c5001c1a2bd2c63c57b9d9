@@ -1,0 +1,7 @@
+
+public class Son {
+
+	
+	
+	abstract vooid add();
+}

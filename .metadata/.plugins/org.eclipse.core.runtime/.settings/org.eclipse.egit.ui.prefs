@@ -1,0 +1,6 @@
+StagingView_ShowNewCommits=true
+StagingView_SyncWithSelection=false
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>commit2</message>\r\n<message>2ndcommit</message>\r\n<message>nfisrtcommit</message>\r\n<message>commited</message>\r\n<message>ff</message>\r\n<message>send</message>\r\n<message>fisrtcommit</message>\r\n<message>myfisrt commit</message>\r\n<message>first commit&\#x0A;uploading file</message>\r\n</messages>
+eclipse.preferences.version=1
+resourcehistory_graph_split=500,500
+resourcehistory_rev_split=700,300

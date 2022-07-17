@@ -1,0 +1,11 @@
+
+public class Father1 {
+
+	
+	void drink()
+
+	{
+		
+		System.out.println("cofeee");
+	}
+}

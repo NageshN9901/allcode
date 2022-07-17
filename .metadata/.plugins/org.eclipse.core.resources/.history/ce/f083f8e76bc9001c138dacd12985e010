@@ -1,0 +1,22 @@
+
+public interface Is {
+
+	
+	void swon();
+	void swof();
+}
+
+interface Ir {
+
+	// its is not public becuse inside one intyerface is enugh to make public
+	void insp();
+	void desp();
+	
+	
+	interface Hybrid extends Is,Ir{
+		
+		
+		
+		
+	}
+}

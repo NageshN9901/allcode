@@ -1,0 +1,12 @@
+
+public interface iMOUSE {
+
+
+	
+	// automaatcally public and abstarct 
+	
+	public void Click();
+	public void doubleClick();
+	void rightClick();
+}
+

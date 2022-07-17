@@ -1,0 +1,12 @@
+
+public class Father  extends Mother{
+static void drinking() {
+	
+	System.out.println("coffeeee");
+}
+
+public static void main(String[] args) {
+	Father f=new Son();
+	f.drinking();//b
+}
+}

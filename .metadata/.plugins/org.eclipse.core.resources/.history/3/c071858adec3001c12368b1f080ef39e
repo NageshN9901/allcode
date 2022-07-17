@@ -1,0 +1,14 @@
+import java.util.*;
+public class SquareDetils {
+
+	
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int side;
+		System.out.println("enter side of square");
+		side =sc.nextInt();
+		System.out.println("arae"+" "+side*side);
+		System.out.println("perimeter"+" "+4*side);
+		
+	}
+}
